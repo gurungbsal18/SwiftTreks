@@ -35,6 +35,12 @@ $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
 
+* {
+  p {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -167,9 +173,9 @@ $dark: $gray-900;
 
 //================================================================ header offer section ends
 
-//================================================================ best selling tours section starts
+//================================================================ best homepage tours design starts
 
-.best-selling-tours {
+.homepage-tours {
   text-align: center;
   padding-top: 136px;
   .homepage-title {
@@ -185,6 +191,7 @@ $dark: $gray-900;
   .main-title {
     position: absolute;
     text-align: center;
+    font-size: 48px;
   }
   .title-shadow {
     position: absolute;
@@ -194,7 +201,7 @@ $dark: $gray-900;
   }
 }
 
-//================================================================ best selling tours section ends
+//================================================================ best homepage tours design ends
 
 //================================================================ trip card starts
 
@@ -227,3 +234,56 @@ $dark: $gray-900;
 }
 
 //================================================================ trip card ends
+
+//================================================================ Banner starts
+
+.home-banner {
+  background-image: url(./images/banner.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  .content {
+    h4 {
+      font-size: 48px;
+      font-family: "Bitter", serif;
+      font-weight: 700;
+    }
+  }
+}
+
+.trips-card {
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.blog {
+  &-card {
+    text-align: left;
+    font-size: 12px;
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      .card {
+        width: 400px;
+        margin-top: 30px;
+      }
+    }
+  }
+  &-date {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    color: $secondary;
+    p {
+      margin: 0;
+    }
+  }
+}

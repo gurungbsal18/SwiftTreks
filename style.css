@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap");
+* p {
+  font-family: "Poppins", sans-serif;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -117,25 +121,26 @@
   font-size: 18px;
 }
 
-.best-selling-tours {
+.homepage-tours {
   text-align: center;
   padding-top: 136px;
 }
-.best-selling-tours .homepage-title {
+.homepage-tours .homepage-title {
   display: flex;
   justify-content: center;
   align-items: end;
   padding-top: 120px;
 }
-.best-selling-tours h4 {
+.homepage-tours h4 {
   font-family: "Bitter", serif;
   font-weight: 700;
 }
-.best-selling-tours .main-title {
+.homepage-tours .main-title {
   position: absolute;
   text-align: center;
+  font-size: 48px;
 }
-.best-selling-tours .title-shadow {
+.homepage-tours .title-shadow {
   position: absolute;
   font-size: 90px;
   text-align: center;
@@ -164,4 +169,49 @@
 }
 .trip-card-review span {
   color: #ffc107;
+}
+
+.home-banner {
+  background-image: url(./images/banner.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.home-banner .content h4 {
+  font-size: 48px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+}
+
+.trips-card-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.blog-card {
+  text-align: left;
+  font-size: 12px;
+}
+.blog-card-row {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-card-row .card {
+  width: 400px;
+  margin-top: 30px;
+}
+.blog-date {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+.blog-date p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
