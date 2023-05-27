@@ -177,6 +177,23 @@
 .trip-card-review span {
   color: #ffc107;
 }
+.trip-card-div {
+  position: relative;
+}
+.trip-card .feature-text {
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  background: #dc3545;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.trip-card .feature-text p {
+  margin: 0;
+}
 
 .home-banner {
   background-image: url(./images/banner.jpg);

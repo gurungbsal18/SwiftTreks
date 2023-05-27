@@ -238,6 +238,28 @@ $dark: $gray-900;
       color: $warning;
     }
   }
+  &-div {
+    position: relative;
+  }
+  // img {
+  //   position: relative;
+  // }
+  .feature {
+    &-text {
+      position: absolute;
+      z-index: 9;
+      right: 0;
+      background: $danger;
+      padding: 10px;
+      border-radius: 10px 0 0 10px;
+      color: $white;
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin: 0;
+      }
+    }
+  }
 }
 
 //================================================================ trip card ends
