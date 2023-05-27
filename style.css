@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+.fs-12 {
+  font-size: 12px;
+}
+
 * p {
   font-family: "Poppins", sans-serif;
 }
@@ -144,19 +149,21 @@
   position: absolute;
   font-size: 90px;
   text-align: center;
-  opacity: 20% !important;
+  opacity: 10% !important;
 }
 
 .trip-card {
   background: #fff;
-  width: 409px;
-  height: 377px;
+  width: -moz-max-content;
+  width: max-content;
   text-align: left;
   border: 0.5px solid #dee2e6;
   margin-top: 60px;
 }
 .trip-card h4 {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 .trip-card:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -165,7 +172,7 @@
   padding: 20px 10px;
 }
 .trip-card .location p {
-  font-size: 14px;
+  font-size: 12px;
 }
 .trip-card-review span {
   color: #ffc107;
@@ -186,10 +193,18 @@
   font-weight: 700;
 }
 
+.trip-cards {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.trips-card {
+  width: -moz-max-content;
+  width: max-content;
+}
 .trips-card-row {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
 }
 
 .blog-card {
@@ -214,4 +229,90 @@
 }
 .blog-date p {
   margin: 0;
+}
+
+.newsletter {
+  margin-top: 160px;
+  background-color: #f9f9f9;
+  padding: 0 !important;
+  height: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.newsletter .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.newsletter-image {
+  height: 600px;
+  background: url(./images/heroImage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.newsletter .content {
+  text-align: center;
+}
+.newsletter .content h4 {
+  font-size: 36px;
+  font-family: "poopins", sans-serif;
+}
+.newsletter .content span {
+  color: #1a7b89;
+}
+.newsletter .content p {
+  font-weight: 200;
+  font-size: 16px;
+}
+.newsletter .content .subscribe-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.newsletter .content .subscribe-email input {
+  border-radius: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.newsletter .content .subscribe-email .subscribe-btn {
+  width: 15%;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.reccommended-cards {
+  margin-top: 115px;
+}
+.reccommended-cards .row {
+  display: flex;
+  justify-content: space-between;
+}
+.reccommended-cards .title p {
+  font-weight: 700;
+}
+.reccommended-cards .title span {
+  font-size: 50px;
+  color: #198754;
+}
+.reccommended-cards .card-1 {
+  background: #f6f6fa;
+}
+.reccommended-cards .card-2 {
+  background-color: #fcf9e5;
+}
+.reccommended-cards .card-3 {
+  background-color: #e3f5f1;
+}
+.reccommended-cards .card-1,
+.reccommended-cards .card-2,
+.reccommended-cards .card-3 {
+  border-radius: 40px;
+  padding: 30px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.reccommended-cards .card-1 .content,
+.reccommended-cards .card-2 .content,
+.reccommended-cards .card-3 .content {
+  font-size: 14px;
+  line-height: 2;
 }/*# sourceMappingURL=style.css.map */
