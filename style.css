@@ -286,6 +286,7 @@
 .reccommended-cards .row {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 .reccommended-cards .title p {
   font-weight: 700;
