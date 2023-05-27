@@ -398,3 +398,79 @@ $dark: $gray-900;
 }
 
 //================================================================ reccommend ends
+//================================================================ review starts
+
+.review {
+  width: 800px;
+  margin: 0 auto;
+  &-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &-trip {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  &-rate {
+    span {
+      color: $warning;
+    }
+  }
+}
+
+//================================================================ review ends
+
+//================================================================ footer starts
+
+.footer {
+  background: $primary;
+  padding: 20px 0;
+  color: $white;
+  margin-top: 150px;
+  &-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  &-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    .icons {
+      margin-right: 3px;
+      width: 16px;
+      height: auto;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+  &-container {
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  &-copyright-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    .col-auto {
+      padding: 0;
+    }
+  }
+}
+
+//================================================================ footer ends

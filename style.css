@@ -315,4 +315,71 @@
 .reccommended-cards .card-3 .content {
   font-size: 14px;
   line-height: 2;
+}
+
+.review {
+  width: 800px;
+  margin: 0 auto;
+}
+.review-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.review-trip {
+  font-size: 18px;
+  font-weight: 500;
+}
+.review-rate span {
+  color: #ffc107;
+}
+
+.footer {
+  background: #1a7b89;
+  padding: 20px 0;
+  color: #fff;
+  margin-top: 150px;
+}
+.footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.footer-content .icons {
+  margin-right: 3px;
+  width: 16px;
+  height: auto;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer-container {
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.footer-copyright-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.footer-copyright-section .col-auto {
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
