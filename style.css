@@ -181,17 +181,26 @@
   position: relative;
 }
 .trip-card .feature-text {
-  position: absolute;
-  z-index: 9;
   right: 0;
   background: #dc3545;
-  padding: 10px;
   border-radius: 10px 0 0 10px;
   color: #fff;
+}
+.trip-card .group-text {
+  left: 0;
+  background: #ffc107;
+  border-radius: 0 10px 10px 0;
+}
+.trip-card .feature-text,
+.trip-card .group-text {
+  position: absolute;
+  z-index: 9;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
 }
-.trip-card .feature-text p {
+.trip-card .feature-text p,
+.trip-card .group-text p {
   margin: 0;
 }
 

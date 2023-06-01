@@ -244,20 +244,28 @@ $dark: $gray-900;
   // img {
   //   position: relative;
   // }
-  .feature {
-    &-text {
-      position: absolute;
-      z-index: 9;
-      right: 0;
-      background: $danger;
-      padding: 10px;
-      border-radius: 10px 0 0 10px;
-      color: $white;
-      display: flex;
-      justify-content: space-between;
-      p {
-        margin: 0;
-      }
+  .feature-text {
+    right: 0;
+    background: $danger;
+    border-radius: 10px 0 0 10px;
+    color: $white;
+  }
+
+  .group-text {
+    left: 0;
+    background: $warning;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .feature-text,
+  .group-text {
+    position: absolute;
+    z-index: 9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    p {
+      margin: 0;
     }
   }
 }
