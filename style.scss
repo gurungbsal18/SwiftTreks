@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
 
 $primary: #1a7b89;
-$primar2: #f7941d;
+$primary2: #f7941d;
 
 $white: #fff;
 $gray-100: #f8f9fa;
@@ -92,7 +92,7 @@ $dark: $gray-900;
         text-decoration: none;
         font-weight: 500;
         &:hover {
-          color: $primar2;
+          color: $primary2;
         }
       }
     }
@@ -399,7 +399,7 @@ $dark: $gray-900;
     }
     span {
       font-size: 50px;
-      color: $success;
+      color: $primary2;
     }
   }
 
