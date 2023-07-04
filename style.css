@@ -413,4 +413,14 @@
 }
 .footer-copyright-section .col-auto {
   padding: 0;
+}
+
+.page-hero {
+  background: url(./images/heroImage.jpg);
+  height: calc(100vh - 162px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
 }/*# sourceMappingURL=style.css.map */

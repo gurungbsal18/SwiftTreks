@@ -507,3 +507,14 @@ $dark: $gray-900;
 }
 
 //================================================================ footer ends
+
+// other pages hero section
+.page-hero {
+  background: url(./images/heroImage.jpg);
+  height: calc(100vh - 162px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+}
