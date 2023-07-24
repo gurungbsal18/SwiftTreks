@@ -517,4 +517,15 @@ $dark: $gray-900;
   background-position: center center;
   display: flex;
   align-items: flex-end;
+  .container-fluid {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6474964985994398) 30%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    .container {
+      padding: 30px;
+    }
+  }
 }

@@ -423,4 +423,11 @@
   background-position: center center;
   display: flex;
   align-items: flex-end;
+}
+.page-hero .container-fluid {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6474964986) 30%, rgba(0, 0, 0, 0) 100%);
+}
+.page-hero .container-fluid .container {
+  padding: 30px;
 }/*# sourceMappingURL=style.css.map */
