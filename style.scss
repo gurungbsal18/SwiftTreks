@@ -97,6 +97,9 @@ $dark: $gray-900;
       }
     }
   }
+  .container {
+    justify-content: center !important;
+  }
 }
 
 @media (max-width: 567px) {

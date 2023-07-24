@@ -56,6 +56,9 @@
 .navbar ul li a:hover {
   color: #f7941d;
 }
+.navbar .container {
+  justify-content: center !important;
+}
 
 @media (max-width: 567px) {
   .top-bar {
