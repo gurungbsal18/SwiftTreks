@@ -157,6 +157,10 @@ $dark: $gray-900;
       text-align: center;
     }
   }
+  .search-bar:focus-visible {
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(1, 1, 0, 0.7);
+  }
 }
 
 //================================================================ hero section ends

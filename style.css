@@ -111,6 +111,10 @@
   padding: 10px;
   text-align: center;
 }
+.hero .search-bar:focus-visible {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(1, 1, 0, 0.7);
+}
 
 .header-offer {
   background: #1a7b89;
