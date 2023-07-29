@@ -84,6 +84,11 @@ $dark: $gray-900;
   }
 }
 
+.title {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -646,5 +651,5 @@ $dark: $gray-900;
 }
 
 .trip-info-icon-row {
-  gap: 80px;
+  gap: 60px;
 }

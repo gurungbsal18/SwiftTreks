@@ -47,6 +47,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+.title {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -544,5 +549,5 @@
 }
 
 .trip-info-icon-row {
-  gap: 80px;
+  gap: 60px;
 }/*# sourceMappingURL=style.css.map */
