@@ -544,8 +544,8 @@
   }
   .footer-copyright-section {
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
+    text-align: center;
   }
   .footer-copyright-section .footer-social {
     justify-content: center;
