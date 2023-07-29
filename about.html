@@ -101,7 +101,22 @@
     </div>
 
     <div class="container mt-4">
-      <i class="fa-regular fa-share-from-square me-2"></i>Share
+      <!-- <i class="fa-regular fa-share-from-square me-2"></i>Share -->
+
+      <a
+        tabindex="0"
+        class="btn btn-md btn-outline-success"
+        role="button"
+        data-bs-toggle="popover"
+        data-bs-trigger="focus"
+        data-bs-title="Share"
+        data-bs-content='
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fs-4 me-2"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fs-4 me-2"></i></a>
+        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fs-4 me-2"></i></a>'
+        data-bs-html="true"
+        >Share <i class="fa-regular fa-share-from-square"></i
+      ></a>
       <h4 class="fw-bold mt-4">About us</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra
@@ -275,5 +290,13 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    var popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
+    });
   </script>
 </html>
