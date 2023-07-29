@@ -2,7 +2,11 @@
 
 @media (max-width: 567px) {
   .hero-image-front img {
-    width: 100%;
+    width: 300px;
+  }
+  .search-bar {
+    width: 300px;
+    margin: 0 auto;
   }
   .card img {
     width: 100%;
@@ -21,8 +25,13 @@
   .trip-card img {
     width: 100%;
   }
-  .blog-card .card {
-    width: 100%;
+
+  .blog-card-row {
+    flex-wrap: nowrap !important;
+    overflow-y: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+    gap: 20px;
   }
   .review {
     width: 100%;
@@ -36,6 +45,9 @@
   .homepage-tours .title-shadow {
     font-size: 50px;
     display: none;
+  }
+  .homepage-sm-padding {
+    padding-top: 50px;
   }
   .reccommended-cards {
     padding: 0 0.5rem;
@@ -91,6 +103,82 @@
   .footer ul li {
     display: flex;
     justify-content: center;
+  }
+  .footer-copyright-section {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    .footer-social {
+      justify-content: center;
+    }
+  }
+  .slider-blog {
+    width: 300px !important;
+    .card {
+      width: 300px;
+    }
+  }
+}
+
+@media (min-width: 567px) and (max-width: 820px) {
+  .navbar {
+    margin: 0;
+    padding-left: 23px !important;
+  }
+  .homepage-tours .title-shadow {
+    font-size: 60px;
+  }
+  .trips-card,
+  .trip-card {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .blog-card-row {
+    flex-wrap: nowrap !important;
+    overflow-y: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+    gap: 20px;
+  }
+
+  .review {
+    width: 100%;
+  }
+  .newsletter {
+    margin-bottom: 250px;
+    .row {
+      gap: 20px;
+    }
+  }
+
+  .slider-blog {
+    width: 300px !important;
+    .card {
+      width: 300px;
+    }
+  }
+
+  .footer {
+    margin-top: 60px;
+    &-container {
+      display: flex;
+      //   text-align: center;
+    }
+    .legal-info {
+      text-align: center;
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+  }
+  .footer ul li {
+    display: flex;
+    // justify-content: center;
   }
   .footer-copyright-section {
     flex-direction: column;

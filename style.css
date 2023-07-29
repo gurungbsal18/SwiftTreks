@@ -218,6 +218,39 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
+.trip-card-review {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.trip-card-review .review-star {
+  display: flex;
+}
+.trip-card-review .review-star span {
+  font-size: 12px;
+}
+.trip-card-review p {
+  margin: 0;
+}
+
+.best-selling-tour {
+  flex-wrap: nowrap !important;
+  overflow-y: hidden;
+  display: flex;
+  scroll-behavior: smooth;
+}
+
+.slider-card {
+  width: 80%;
+}
+
+.trip-slider {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 .home-banner {
   background-image: url(./images/himalayas.jpg);
   height: 100vh;
@@ -255,10 +288,6 @@
 .blog-card-row {
   display: flex;
   justify-content: space-between;
-}
-.blog-card-row .card {
-  width: 400px;
-  margin-top: 30px;
 }
 .blog-date {
   display: flex;
