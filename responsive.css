@@ -90,28 +90,6 @@
   gap: 60px;
 }
 
-@media (max-width: 567px) {
-  .top-bar {
-    padding: 10px 0;
-    flex-direction: column;
-  }
-  .top-bar-contact {
-    width: 100%;
-  }
-  .top-bar-contact .row {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .top-bar-contact .row .col {
-    text-align: center;
-  }
-  .top-bar img {
-    width: 100px;
-  }
-  .navbar {
-    margin: 0;
-  }
-}
 .hero {
   background: url(./images/heroImage.jpg);
   height: calc(100vh - 162px);
@@ -236,13 +214,18 @@
   margin: 0;
 }
 
+.trips-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
 .home-banner {
-  background-image: url(./images/banner.jpg);
-  height: 800px;
+  background-image: url(./images/himalayas.jpg);
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  background-position: bottom;
   align-items: flex-end;
 }
 .home-banner .content h4 {
@@ -333,9 +316,8 @@
   width: 50%;
 }
 .newsletter .content .subscribe-email .subscribe-btn {
-  width: 15%;
   margin: 0 auto;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .reccommended-cards {
@@ -470,15 +452,6 @@
 }
 
 @media (max-width: 567px) {
-  .page-hero .container-fluid .container {
-    padding: 0;
-    padding-bottom: 30px;
-  }
-  .trip-header {
-    flex-direction: column;
-  }
-}
-@media (max-width: 567px) {
   .hero-image-front img {
     width: 100%;
   }
@@ -493,6 +466,9 @@
   .trip-card-div img {
     width: 100%;
   }
+  .trip-card {
+    margin-top: 30px;
+  }
   .trip-card img {
     width: 100%;
   }
@@ -502,10 +478,59 @@
   .review {
     width: 100%;
   }
+  .homepage-title {
+    padding-top: 60px !important;
+  }
+  .homepage-tours .main-title {
+    font-size: 40px;
+  }
   .homepage-tours .title-shadow {
-    font-size: 29px;
+    font-size: 50px;
+    display: none;
+  }
+  .reccommended-cards {
+    padding: 0 0.5rem;
   }
   .reccommended-cards .row {
     justify-content: center;
+  }
+  .page-hero .container-fluid .container {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .trip-header {
+    flex-direction: column;
+  }
+  .top-bar {
+    padding: 10px 0;
+    flex-direction: column;
+  }
+  .top-bar-contact {
+    width: 100%;
+  }
+  .top-bar-contact .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .top-bar-contact .row .col {
+    text-align: center;
+  }
+  .top-bar img {
+    width: 100px;
+  }
+  .navbar {
+    margin: 0;
+  }
+  .newsletter {
+    margin-top: 60px;
+  }
+  .newsletter-image {
+    height: 300px;
+  }
+  .newsletter .content {
+    margin-top: 20px;
+  }
+  .footer {
+    margin-top: 60px;
   }
 }/*# sourceMappingURL=responsive.css.map */
