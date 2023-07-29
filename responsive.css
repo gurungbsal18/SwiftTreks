@@ -236,10 +236,6 @@
   margin: 0;
 }
 
-.trips-card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-}
-
 .home-banner {
   background-image: url(./images/banner.jpg);
   height: 800px;
@@ -481,4 +477,35 @@
   .trip-header {
     flex-direction: column;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+@media (max-width: 567px) {
+  .hero-image-front img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .trips-card,
+  .trip-cards,
+  .trip-card {
+    width: 100%;
+  }
+  .trip-card-div img {
+    width: 100%;
+  }
+  .trip-card img {
+    width: 100%;
+  }
+  .blog-card .card {
+    width: 100%;
+  }
+  .review {
+    width: 100%;
+  }
+  .homepage-tours .title-shadow {
+    font-size: 29px;
+  }
+  .reccommended-cards .row {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=responsive.css.map */

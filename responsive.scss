@@ -1,0 +1,33 @@
+@import "./style.scss";
+
+@media (max-width: 567px) {
+  .hero-image-front img {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+  }
+  .trips-card,
+  .trip-cards,
+  .trip-card {
+    width: 100%;
+  }
+  .trip-card-div img {
+    width: 100%;
+  }
+  .trip-card img {
+    width: 100%;
+  }
+  .blog-card .card {
+    width: 100%;
+  }
+  .review {
+    width: 100%;
+  }
+  .homepage-tours .title-shadow {
+    font-size: 29px;
+  }
+  .reccommended-cards .row {
+    justify-content: center;
+  }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
     <!-- bootstrap cdn -->
     <link
@@ -63,30 +64,46 @@
     </div>
 
     <div class="navbar">
-      <div class="container">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Destination</a>
-          </li>
-          <li>
-            <a href="#">Nepal</a>
-          </li>
-          <li>
-            <a href="#">Travel Info</a>
-          </li>
-          <li>
-            <a href="#">Company Info</a>
-          </li>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
-        </ul>
+      <div class="navbar navbar-expand-lg menu-bar">
+        <div class="container-fluid navbar-container">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Nepal</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Travel Info</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Company Info</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -147,7 +164,7 @@
 
       <!-- This trips needs to be shown in slider -->
       <div class="row">
-        <div class="col">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div class="trip-card-div">
@@ -188,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div class="trip-card-div">
@@ -227,7 +244,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -316,7 +333,7 @@
         </h4>
       </div>
       <div class="row trips-card-row">
-        <div class="col-3">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -351,7 +368,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -386,7 +403,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -423,7 +440,7 @@
         </div>
       </div>
       <div class="row trips-card-row">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -458,7 +475,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -493,7 +510,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12">
           <div class="trips-card">
             <div class="trip-card">
               <div>
@@ -563,7 +580,7 @@
       <!-- blog card -->
       <div class="blog-card">
         <div class="row blog-card-row">
-          <div class="col-4 mt-5">
+          <div class="col-lg-4 col-md-12 mt-5">
             <div class="card">
               <img src="./images/trip.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -578,7 +595,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 mt-5">
+          <div class="col-lg-4 col-md-12 mt-5">
             <div class="card">
               <img src="./images/trip.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -593,7 +610,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4 mt-5">
+          <div class="col-lg-4 col-md-12 mt-5">
             <div class="card">
               <img src="./images/trip.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -625,12 +642,12 @@
       data-aos-offset="-500"
     >
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
           <div class="newsletter-image">
             <!-- <img src="./images/heroImage.jpg" /> -->
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
           <div class="content">
             <h4>
               Get special offer, and <br />
@@ -680,13 +697,13 @@
 
       <div class="reccommended-logo">
         <div class="row d-flex align-items-center justify-content-between">
-          <div class="col-4">
+          <div class="col-md-4 col-sm-12">
             <img src="./images/tripadvisorLogo.png" />
           </div>
-          <div class="col-4">
+          <div class="col-md-4 col-sm-12">
             <img src="./images/lonelyplanetLogo.png" />
           </div>
-          <div class="col-4">
+          <div class="col-md-4 col-sm-12">
             <img src="./images/getyourguideLogo.png" />
           </div>
         </div>
