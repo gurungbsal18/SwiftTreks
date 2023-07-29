@@ -82,5 +82,22 @@
   }
   .footer {
     margin-top: 60px;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  .footer ul li {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-copyright-section {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    .footer-social {
+      justify-content: center;
+    }
   }
 }
