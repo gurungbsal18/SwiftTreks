@@ -5,6 +5,10 @@
   font-size: 12px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a7b89 !important;
@@ -43,6 +47,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+.title {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -64,6 +73,41 @@
 }
 .top-bar-viber {
   color: #a400be;
+}
+
+.trip-navbar {
+  background: #1a7b89;
+  height: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  display: flex;
+}
+.trip-navbar ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px !important;
+}
+.trip-navbar ul li {
+  color: #fff;
+  list-style: none;
+}
+.trip-navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.trip-navbar ul li a:hover {
+  color: #f7941d;
+}
+.trip-navbar .container {
+  justify-content: center !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: center;
 }
 
 .navbar {
@@ -478,6 +522,34 @@
 .trip-header {
   display: flex;
   justify-content: space-between;
+}
+
+.trip-info-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.trip-info-icon i {
+  font-size: 30px;
+}
+.trip-info-icon-detail {
+  display: flex;
+  flex-direction: column;
+}
+.trip-info-icon-detail .trip-info-icon-header {
+  font-size: 14px;
+}
+.trip-info-icon-detail .trip-info-subheader {
+  margin-top: -5px;
+  color: #1a7b89;
+}
+.trip-info-icon-detail .trip-info-tooltip {
+  font-size: 14px;
+  color: #f7941d;
+}
+
+.trip-info-icon-row {
+  gap: 60px;
 }
 
 @media (max-width: 567px) {
