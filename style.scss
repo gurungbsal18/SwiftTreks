@@ -701,4 +701,21 @@ $dark: $gray-900;
     margin-right: 5px;
     color: $primary2;
   }
+  .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+  }
+  .accordion-button::after {
+    content: "\f055";
+    font-family: FontAwesome;
+    background-image: none;
+    color: #6c757d;
+  }
+  .accordion-button:not(.collapsed)::after {
+    content: "\f056";
+    font-family: FontAwesome;
+    background-image: none;
+    color: #6c757d;
+    transform: none;
+  }
 }

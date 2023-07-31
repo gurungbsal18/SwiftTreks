@@ -599,4 +599,21 @@
   font-family: FontAwesome;
   margin-right: 5px;
   color: #f7941d;
+}
+.detail-itinerary .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+.detail-itinerary .accordion-button::after {
+  content: "\f055";
+  font-family: FontAwesome;
+  background-image: none;
+  color: #6c757d;
+}
+.detail-itinerary .accordion-button:not(.collapsed)::after {
+  content: "\f056";
+  font-family: FontAwesome;
+  background-image: none;
+  color: #6c757d;
+  transform: none;
 }/*# sourceMappingURL=style.css.map */
