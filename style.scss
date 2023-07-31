@@ -695,6 +695,9 @@ $dark: $gray-900;
     height: 500px;
     object-fit: cover;
   }
+  &-days {
+    font-weight: 500;
+  }
   &-days::before {
     content: "\f3c5";
     font-family: FontAwesome;
@@ -717,5 +720,8 @@ $dark: $gray-900;
     background-image: none;
     color: #6c757d;
     transform: none;
+  }
+  .accordion-button:not(.collapsed) {
+    background: $gray-100;
   }
 }

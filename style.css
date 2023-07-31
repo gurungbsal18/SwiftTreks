@@ -594,6 +594,9 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.detail-itinerary-days {
+  font-weight: 500;
+}
 .detail-itinerary-days::before {
   content: "\f3c5";
   font-family: FontAwesome;
@@ -616,4 +619,7 @@
   background-image: none;
   color: #6c757d;
   transform: none;
+}
+.detail-itinerary .accordion-button:not(.collapsed) {
+  background: #f8f9fa;
 }/*# sourceMappingURL=style.css.map */
