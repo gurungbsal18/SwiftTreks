@@ -550,4 +550,18 @@
 
 .trip-info-icon-row {
   gap: 60px;
+}
+
+.trip-highlight ul {
+  padding: 0;
+}
+.trip-highlight ul li {
+  list-style: none;
+}
+
+.itinerary-icon i {
+  font-size: 30px;
+}
+.itinerary-icon-title, .itinerary-icon-subtitle {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

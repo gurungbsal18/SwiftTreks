@@ -653,3 +653,22 @@ $dark: $gray-900;
 .trip-info-icon-row {
   gap: 60px;
 }
+
+.trip-highlight {
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.itinerary-icon {
+  i {
+    font-size: 30px;
+  }
+  &-title,
+  &-subtitle {
+    font-size: 14px;
+  }
+}
