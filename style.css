@@ -622,4 +622,14 @@
 }
 .detail-itinerary .accordion-button:not(.collapsed) {
   background: #f8f9fa;
+}
+
+.trip-map-image {
+  height: 500px;
+  overflow: scroll;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.trip-map img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

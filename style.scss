@@ -725,3 +725,14 @@ $dark: $gray-900;
     background: $gray-100;
   }
 }
+
+.trip-map {
+  &-image {
+    height: 500px;
+    overflow: scroll;
+    object-fit: cover;
+  }
+  img {
+    width: 100%;
+  }
+}
