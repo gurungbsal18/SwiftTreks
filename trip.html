@@ -247,7 +247,7 @@
             </ul>
           </div>
 
-          <div class="mt-5">
+          <div class="mt-5 detail-itinerary">
             <span class="d-flex justify-content-between"
               ><h4 class="title">Itinerary</h4>
               <button class="btn btn-primary">Expand +</button>
@@ -264,7 +264,9 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Day 1: Arrival in Kathmandu
+                    <span class="detail-itinerary-days"
+                      >Day 1: Arrival in Kathmandu</span
+                    >
                   </button>
                 </h2>
                 <div
@@ -272,25 +274,23 @@
                   class="accordion-collapse collapse show"
                   data-bs-parent="#accordionExample"
                 >
+                  <img src="images/trip.jpg" alt="" />
                   <div class="accordion-body">
-                    Lorem Ipsum es simplemente el texto de relleno de las
-                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto
-                    de relleno estándar de las industrias desde el año 1500,
-                    cuando un impresor (N. del T. persona que se dedica a la
-                    imprenta) desconocido usó una galería de textos y los mezcló
-                    de tal manera que logró hacer un libro de textos especimen.
-                    <div class="itinerary-icon">
-                      <div class="d-flex align-items-center">
-                        <span class="me-2"
-                          ><i class="fa-solid fa-mountain"></i
-                        ></span>
-                        <span class="d-flex flex-column">
-                          <span class="itinerary-icon-title fw-bold text-muted"
-                            >Max Altitude</span
-                          >
-                          <span class="itinerary-icon-subtitle">1400m</span>
-                        </span>
-                      </div>
+                    <p>
+                      Lorem Ipsum es simplemente el texto de relleno de las
+                      imprentas y archivos de texto. Lorem Ipsum ha sido el
+                      texto de relleno estándar de las industrias desde el año
+                      1500, cuando un impresor (N. del T. persona que se dedica
+                      a la imprenta) desconocido usó una galería de textos y los
+                      mezcló de tal manera que logró hacer un libro de textos
+                      especimen.
+                    </p>
+                    <div class="itinerary-icon-info mt-2">
+                      <ul>
+                        <li class="altitude">Maximum Altitude: 1400m</li>
+                        <li class="meals">Meals: B,L,D</li>
+                        <li class="accommodation">Accommodation: Hotel</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -305,7 +305,9 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Day 2: Kathmandu Sightseeing
+                    <span class="detail-itinerary-days"
+                      >Day 2: Kathmandu to Lukla</span
+                    >
                   </button>
                 </h2>
                 <div
@@ -313,13 +315,24 @@
                   class="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
+                  <img src="images/lukla.jpg" alt="" />
                   <div class="accordion-body">
-                    Lorem Ipsum es simplemente el texto de relleno de las
-                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto
-                    de relleno estándar de las industrias desde el año 1500,
-                    cuando un impresor (N. del T. persona que se dedica a la
-                    imprenta) desconocido usó una galería de textos y los mezcló
-                    de tal manera que logró hacer un libro de textos especimen.
+                    <p>
+                      Lorem Ipsum es simplemente el texto de relleno de las
+                      imprentas y archivos de texto. Lorem Ipsum ha sido el
+                      texto de relleno estándar de las industrias desde el año
+                      1500, cuando un impresor (N. del T. persona que se dedica
+                      a la imprenta) desconocido usó una galería de textos y los
+                      mezcló de tal manera que logró hacer un libro de textos
+                      especimen.
+                    </p>
+                    <div class="itinerary-icon-info mt-2">
+                      <ul>
+                        <li class="altitude">Maximum Altitude: 1400m</li>
+                        <li class="meals">Meals: B,L,D</li>
+                        <li class="accommodation">Accommodation: Hotel</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -333,7 +346,9 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Day 3: Kathmandu to Lukla by flight
+                    <span class="detail-itinerary-days"
+                      >Day 3: Lukla to Namche Bazaar</span
+                    >
                   </button>
                 </h2>
                 <div
