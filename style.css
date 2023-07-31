@@ -632,4 +632,32 @@
 }
 .trip-map img {
   width: 100%;
+}
+
+.trip-info .title::before {
+  content: "\f15c";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #1a7b89;
+}
+
+.trip-highlight .title::before {
+  content: "\f1c5";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #1a7b89;
+}
+
+.detail-itinerary .title::before {
+  content: "\f5a0";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #1a7b89;
+}
+
+.trip-map .title::before {
+  content: "\f54b";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #1a7b89;
 }/*# sourceMappingURL=style.css.map */

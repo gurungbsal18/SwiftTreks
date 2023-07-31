@@ -736,3 +736,28 @@ $dark: $gray-900;
     width: 100%;
   }
 }
+
+.trip-info .title::before {
+  content: "\f15c";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $primary;
+}
+.trip-highlight .title::before {
+  content: "\f1c5";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $primary;
+}
+.detail-itinerary .title::before {
+  content: "\f5a0";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $primary;
+}
+.trip-map .title::before {
+  content: "\f54b";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $primary;
+}
