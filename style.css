@@ -45,6 +45,7 @@
 
 * p {
   font-family: "Poppins", sans-serif;
+  line-height: 1.7;
 }
 
 .title {
@@ -552,6 +553,10 @@
   gap: 60px;
 }
 
+.trip-info-container p {
+  text-align: justify;
+}
+
 .trip-highlight ul {
   padding: 0;
 }
@@ -660,4 +665,11 @@
   font-family: FontAwesome;
   margin-right: 5px;
   color: #1a7b89;
+}
+
+.trip-highlight ul li::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  color: #f7941d;
+  line-height: 2;
 }/*# sourceMappingURL=style.css.map */

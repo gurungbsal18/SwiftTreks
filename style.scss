@@ -81,6 +81,7 @@ $dark: $gray-900;
   p {
     font-family: "Poppins", sans-serif;
     // font-family: "Assistant", sans-serif;
+    line-height: 1.7;
   }
 }
 
@@ -654,6 +655,12 @@ $dark: $gray-900;
   gap: 60px;
 }
 
+.trip-info-container {
+  p {
+    text-align: justify;
+  }
+}
+
 .trip-highlight {
   ul {
     padding: 0;
@@ -760,4 +767,11 @@ $dark: $gray-900;
   font-family: FontAwesome;
   margin-right: 5px;
   color: $primary;
+}
+
+.trip-highlight ul li::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  color: $primary2;
+  line-height: 2;
 }
