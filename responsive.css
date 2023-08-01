@@ -9,6 +9,14 @@
   font-size: 14px;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a7b89 !important;
@@ -45,6 +53,7 @@
 
 * p {
   font-family: "Poppins", sans-serif;
+  line-height: 1.7;
 }
 
 .title {
@@ -552,6 +561,10 @@
   gap: 60px;
 }
 
+.trip-info-container p {
+  text-align: justify;
+}
+
 .trip-highlight ul {
   padding: 0;
 }
@@ -660,6 +673,68 @@
   font-family: FontAwesome;
   margin-right: 5px;
   color: #1a7b89;
+}
+
+.trip-highlight ul li::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  color: #f7941d;
+  line-height: 2;
+}
+
+.cost-include .title::before {
+  content: "\e5a0";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #198754;
+}
+
+.cost-include-content {
+  list-style: none;
+  padding: 0;
+}
+.cost-include-content li:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  color: #198754;
+  margin-right: 5px;
+}
+
+.cost-exclude-content {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+.cost-exclude-content li:before {
+  content: "\f057";
+  font-family: FontAwesome;
+  color: #dc3545;
+  margin-right: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.cost-include-btn::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #198754;
+}
+
+.cost-include-btn:hover::before {
+  color: #fff;
+}
+
+.cost-exclude-btn:hover::before {
+  color: #fff;
+}
+.cost-exclude-btn::before {
+  content: "\f057";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #dc3545;
 }
 
 @media (max-width: 567px) {

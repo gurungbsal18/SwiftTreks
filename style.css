@@ -9,6 +9,14 @@
   font-size: 14px;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a7b89 !important;
@@ -706,6 +714,14 @@
 
 .hide {
   display: none;
+}
+
+.btn-success::before {
+  color: #fff !important;
+}
+
+.btn-danger::before {
+  color: #fff !important;
 }
 
 .cost-include-btn::before {

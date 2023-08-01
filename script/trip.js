@@ -9,8 +9,16 @@ costIncludeBtn.addEventListener("click", function () {
   costExcludeContent.classList.add("hide");
   costIncludeContent.classList.remove("hide");
   costExcludeContent.style.display = "none";
+  costIncludeBtn.classList.add("btn-success");
+  costIncludeBtn.classList.remove("btn-outline-success");
+  costExcludeBtn.classList.add("btn-outline-danger");
+  costExcludeBtn.classList.remove("btn-danger");
 });
 costExcludeBtn.addEventListener("click", function () {
   costIncludeContent.classList.add("hide");
   costExcludeContent.style.display = "block";
+  costExcludeBtn.classList.add("btn-danger");
+  costExcludeBtn.classList.remove("btn-outline-danger");
+  costIncludeBtn.classList.add("btn-outline-success");
+  costIncludeBtn.classList.remove("btn-success");
 });
