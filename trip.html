@@ -382,6 +382,32 @@
               <img src="images/map.jpg" alt="" />
             </div>
           </div>
+
+          <div class="mt-5 cost-include">
+            <h4 class="title">Cost Include and Exclude</h4>
+            <div>
+              <button class="btn btn-outline-success cost-include-btn">
+                Cost Include
+              </button>
+              <button class="btn btn-outline-danger cost-exclude-btn">
+                Cost Exclude
+              </button>
+
+              <div>
+                <ul class="cost-include-content mt-3">
+                  <li>Domestic flight ticket</li>
+                  <li>Meals during trek</li>
+                  <li>Transportation</li>
+                  <li>Permits</li>
+                </ul>
+
+                <ul class="cost-exclude-content mt-3">
+                  <li>International ticket</li>
+                  <li>Personal expenses</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-4 sidebarPrice">Trip price</div>
       </div>
@@ -479,4 +505,5 @@
       (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
     );
   </script>
+  <script src="script/trip.js"></script>
 </html>

@@ -672,4 +672,59 @@
   font-family: FontAwesome;
   color: #f7941d;
   line-height: 2;
+}
+
+.cost-include .title::before {
+  content: "\e5a0";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #198754;
+}
+
+.cost-include-content {
+  list-style: none;
+  padding: 0;
+}
+.cost-include-content li:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  color: #198754;
+  margin-right: 5px;
+}
+
+.cost-exclude-content {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+.cost-exclude-content li:before {
+  content: "\f057";
+  font-family: FontAwesome;
+  color: #dc3545;
+  margin-right: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.cost-include-btn::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #198754;
+}
+
+.cost-include-btn:hover::before {
+  color: #fff;
+}
+
+.cost-exclude-btn:hover::before {
+  color: #fff;
+}
+.cost-exclude-btn::before {
+  content: "\f057";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #dc3545;
 }/*# sourceMappingURL=style.css.map */

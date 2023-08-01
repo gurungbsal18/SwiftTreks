@@ -775,3 +775,60 @@ $dark: $gray-900;
   color: $primary2;
   line-height: 2;
 }
+
+.cost-include .title::before {
+  content: "\e5a0";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $success;
+}
+
+.cost-include-content {
+  list-style: none;
+  padding: 0;
+  li:before {
+    content: "\f058";
+    font-family: FontAwesome;
+    color: $success;
+    margin-right: 5px;
+  }
+}
+
+.cost-exclude-content {
+  display: none;
+  list-style: none;
+  padding: 0;
+  li:before {
+    content: "\f057";
+    font-family: FontAwesome;
+    color: $danger;
+    margin-right: 5px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.cost-include-btn::before {
+  content: "\f058";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: $success;
+}
+
+.cost-include-btn:hover::before {
+  color: #fff;
+}
+
+.cost-exclude-btn {
+  &:hover::before {
+    color: #fff;
+  }
+  &::before {
+    content: "\f057";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $danger;
+  }
+}

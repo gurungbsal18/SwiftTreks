@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .content2 {
+        display: none;
+      }
+      .non {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button class="btn1">btn 1</button>
+      <button class="btn2">btn 2</button>
+
+      <p class="content1">btn 1 content</p>
+      <p class="content2">btn 2 content</p>
+    </div>
+
+    <script>
+      let button1 = document.querySelector(".btn1");
+      let button2 = document.querySelector(".btn2");
+      let content1 = document.querySelector(".content1");
+      let content2 = document.querySelector(".content2");
+
+      button1.addEventListener("click", function () {
+        // content1.style.display = "block";
+        content2.classList.add("non");
+        content1.classList.remove("non");
+        content2.style.display = "none";
+      });
+      button2.addEventListener("click", function () {
+        content1.classList.add("non");
+        content2.classList.remove("non");
+        content2.style.display = "block";
+      });
+    </script>
+  </body>
+</html>
