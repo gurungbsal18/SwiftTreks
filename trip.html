@@ -157,7 +157,7 @@
 
     <div class="container py-5">
       <div class="row">
-        <div class="col-8 trip-info-container">
+        <div class="col-lg-8 col-sm-12 trip-info-container">
           <!-- trip info starts -->
           <div class="trip-info">
             <h4 class="title">Overview</h4>
@@ -383,6 +383,7 @@
             </div>
           </div>
 
+          <!-- cost include and exclude starts -->
           <div class="mt-5 cost-include">
             <h4 class="title">Trip Inclusion</h4>
             <div class="mt-4">
@@ -408,6 +409,77 @@
               </div>
             </div>
           </div>
+
+          <!-- fix departure date starts -->
+          <div class="fix-departure-date mt-5">
+            <h4 class="title">Fix Departure Date</h4>
+            <div>
+              <div class="table-responsive">
+                <table class="table mt-3">
+                  <thead>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Status</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="start-date">
+                        <span class="start-date-content"
+                          >September 5, 2023</span
+                        >
+                      </td>
+                      <td class="end-date">
+                        <span class="end-date-content">September 19, 2023</span>
+                      </td>
+                      <td class="status">
+                        <span class="status-content text-success"
+                          >Available</span
+                        >
+                      </td>
+                      <td class="price">
+                        <span class="price-content">US$1499/- pp</span>
+                      </td>
+                      <td class="action">
+                        <button class="btn btn-sm btn-success">Book Now</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="start-date">
+                        <span class="start-date-content text-danger"
+                          >September 10, 2023</span
+                        >
+                      </td>
+                      <td class="end-date">
+                        <span class="end-date-content text-danger"
+                          >September 24, 2023</span
+                        >
+                      </td>
+                      <td class="status">
+                        <span class="status-content text-danger"
+                          >Unavailable</span
+                        >
+                      </td>
+                      <td class="price">
+                        <span class="price-content text-danger"
+                          >US$1499/- pp</span
+                        >
+                      </td>
+                      <td class="action">
+                        <button class="btn btn-sm btn-success disabled">
+                          Book Now
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- vide0 and photo gallery starts -->
+          <div class="gallery mt-5"></div>
         </div>
         <div class="col-4 sidebarPrice">Trip price</div>
       </div>

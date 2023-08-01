@@ -662,14 +662,14 @@
 }
 
 .detail-itinerary .title::before {
-  content: "\f5a0";
+  content: "\f54b";
   font-family: FontAwesome;
   margin-right: 5px;
   color: #1a7b89;
 }
 
 .trip-map .title::before {
-  content: "\f54b";
+  content: "\f5a0";
   font-family: FontAwesome;
   margin-right: 5px;
   color: #1a7b89;
@@ -680,6 +680,10 @@
   font-family: FontAwesome;
   color: #f7941d;
   line-height: 2;
+}
+
+.cost-include ul {
+  line-height: 1.7;
 }
 
 .cost-include .title::before {
@@ -716,6 +720,14 @@
   display: none;
 }
 
+.btn-success::before {
+  color: #fff !important;
+}
+
+.btn-danger::before {
+  color: #fff !important;
+}
+
 .cost-include-btn::before {
   content: "\f058";
   font-family: FontAwesome;
@@ -735,6 +747,21 @@
   font-family: FontAwesome;
   margin-right: 5px;
   color: #dc3545;
+}
+
+.fix-departure-date .title::before {
+  content: "\f073";
+  color: #1a7b89;
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+.fix-departure-date tr {
+  vertical-align: middle;
+}
+.fix-departure-date table {
+  border: 0.5px solid #6c757d;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media (max-width: 567px) {
@@ -761,6 +788,13 @@
   }
   .trip-card img {
     width: 100%;
+  }
+  .trip-navbar ul {
+    overflow: scroll;
+    gap: 10px;
+  }
+  .trip-navbar ul li {
+    text-wrap: nowrap;
   }
   .blog-card-row {
     flex-wrap: nowrap !important;
@@ -852,6 +886,39 @@
   }
   .slider-blog .card {
     width: 300px;
+  }
+  .detail-itinerary img {
+    height: 200px !important;
+  }
+  .fix-departure-date td {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .fix-departure-date td::before {
+    min-width: 90px;
+  }
+  .fix-departure-date .start-date::before {
+    content: "Start Date";
+  }
+  .fix-departure-date .end-date::before {
+    content: "End Date";
+  }
+  .fix-departure-date .status::before {
+    content: "Status";
+  }
+  .fix-departure-date .price::before {
+    content: "Price";
+  }
+  .fix-departure-date .action::before {
+    content: "Action";
+  }
+  thead {
+    display: none;
+  }
+  .trip-info-container {
+    flex-direction: column;
   }
 }
 @media (min-width: 567px) and (max-width: 820px) {

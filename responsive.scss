@@ -25,6 +25,14 @@
   .trip-card img {
     width: 100%;
   }
+  .trip-navbar ul {
+    // flex-wrap: wrap;
+    overflow: scroll;
+    gap: 10px;
+    li {
+      text-wrap: nowrap;
+    }
+  }
 
   .blog-card-row {
     flex-wrap: nowrap !important;
@@ -117,6 +125,46 @@
     .card {
       width: 300px;
     }
+  }
+
+  .detail-itinerary {
+    img {
+      height: 200px !important;
+    }
+  }
+
+  .fix-departure-date {
+    td {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    td::before {
+      min-width: 90px;
+    }
+    .start-date::before {
+      content: "Start Date";
+    }
+    .end-date::before {
+      content: "End Date";
+    }
+    .status::before {
+      content: "Status";
+    }
+    .price::before {
+      content: "Price";
+    }
+    .action::before {
+      content: "Action";
+    }
+  }
+  thead {
+    display: none;
+  }
+
+  .trip-info-container {
+    flex-direction: column;
   }
 }
 

@@ -765,13 +765,13 @@ $dark: $gray-900;
   color: $primary;
 }
 .detail-itinerary .title::before {
-  content: "\f5a0";
+  content: "\f54b";
   font-family: FontAwesome;
   margin-right: 5px;
   color: $primary;
 }
 .trip-map .title::before {
-  content: "\f54b";
+  content: "\f5a0";
   font-family: FontAwesome;
   margin-right: 5px;
   color: $primary;
@@ -782,6 +782,10 @@ $dark: $gray-900;
   font-family: FontAwesome;
   color: $primary2;
   line-height: 2;
+}
+
+.cost-include ul {
+  line-height: 1.7;
 }
 
 .cost-include .title::before {
@@ -846,5 +850,22 @@ $dark: $gray-900;
     font-family: FontAwesome;
     margin-right: 5px;
     color: $danger;
+  }
+}
+
+.fix-departure-date .title::before {
+  content: "\f073";
+  color: $primary;
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+.fix-departure-date {
+  tr {
+    vertical-align: middle;
+  }
+  table {
+    border: 0.5px solid $secondary;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }
