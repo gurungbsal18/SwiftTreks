@@ -984,4 +984,48 @@
   .footer-copyright-section .footer-social {
     justify-content: center;
   }
+}
+.price-box-header {
+  color: #fff;
+  background-color: #1a7b89;
+  padding: 10px 20px;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  gap: 13px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  position: relative;
+}
+.price-box-header i {
+  font-size: 40px;
+}
+.price-box-header .price-box-title {
+  font-weight: 700;
+  font-size: 21px;
+}
+.price-box-header .price-box-price {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.price-box-body {
+  background-color: #1a7b89;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.price-box-body .price-dropdown {
+  width: 100%;
+}
+.price-box-body .price-dropdown .dropdown-toggle {
+  width: 100%;
+}
+.price-box-body .price-dropdown .dropdown-menu.show {
+  width: 100%;
+  padding: 10px 20px;
+}
+.price-box-body .price-dropdown .dropdown-menu.show table {
+  width: 100% !important;
 }/*# sourceMappingURL=responsive.css.map */

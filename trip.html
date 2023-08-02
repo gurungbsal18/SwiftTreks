@@ -1,581 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
 
-    <!-- fontawesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 
-    <!-- material ui fonts cdn -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- material ui fonts cdn -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-    <title>Swift Treks</title>
-  </head>
-  <body>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <title>Swift Treks</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="top-bar-logo py-3">
+        <img src="./images/Logo.png" alt="" />
+      </div>
+      <div class="top-bar-contact">
+        <div class="row">
+          <div class="col">
+            <span>Quick questions? Email us</span><br />
+            <span><a href="mailto:swiftholidaysnepal@gmail.com" target="_blank">swiftholidaysnepal@gmail.com</a></span>
+          </div>
+          <div class="col">
+            <span>Need Help Booking? Call us</span><br />
+            <span><a href="tel:009779803248087" target="_blank">
+                <i class="fa-brands fa-whatsapp top-bar-whatsapp"></i>
+                <i class="fa-brands fa-viber top-bar-viber"></i>
+                +977 9803248087
+              </a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <div class="navbar navbar-expand-lg menu-bar">
+      <div class="container-fluid navbar-container">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Nepal</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Travel Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Company Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-hero">
+    <div class="container-fluid">
+      <div class="container trip-header">
+        <div class="trip-header-title">
+          <h4 class="text-light fw-bold">Everest Base Camp Trek - 14 Days</h4>
+          <p class="text-light">Price: US$ 1024 per person</p>
+        </div>
+        <div class="trip-header-btn">
+          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-warning">Customize Trip</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- trip navbar -->
+  <div class="trip-navbar">
     <div class="container">
-      <div class="top-bar">
-        <div class="top-bar-logo py-3">
-          <img src="./images/Logo.png" alt="" />
-        </div>
-        <div class="top-bar-contact">
-          <div class="row">
-            <div class="col">
-              <span>Quick questions? Email us</span><br />
-              <span
-                ><a href="mailto:swiftholidaysnepal@gmail.com" target="_blank"
-                  >swiftholidaysnepal@gmail.com</a
-                ></span
-              >
+      <ul>
+        <li>
+          <a href="#">Overview</a>
+        </li>
+        <li>
+          <a href="#">Itinerary</a>
+        </li>
+        <li>
+          <a href="#">Trip Map</a>
+        </li>
+        <li>
+          <a href="#">Cost Includes & Excludes</a>
+        </li>
+        <li>
+          <a href="#">Dates & Price</a>
+        </li>
+        <li>
+          <a href="#">Useful Info</a>
+        </li>
+        <li>
+          <a href="#">FAQs</a>
+        </li>
+        <li>
+          <a href="#">Reviews</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- trip navbar ends -->
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-8 col-sm-12 trip-info-container">
+        <!-- trip info starts -->
+        <div class="trip-info">
+          <h4 class="title">Overview</h4>
+          <div class="row trip-info-icon-row mt-4">
+            <div class="col-auto trip-info-icon">
+              <i class="fa-regular fa-calendar"></i>
+              <div class="trip-info-icon-detail">
+                <span class="text-muted trip-info-icon-header">Duration</span>
+                <span class="fw-bold trip-info-subheader">14 Days</span>
+              </div>
             </div>
-            <div class="col">
-              <span>Need Help Booking? Call us</span><br />
-              <span
-                ><a href="tel:009779803248087" target="_blank">
-                  <i class="fa-brands fa-whatsapp top-bar-whatsapp"></i>
-                  <i class="fa-brands fa-viber top-bar-viber"></i>
-                  +977 9803248087
-                </a></span
-              >
+            <div class="col-auto trip-info-icon">
+              <i class="fa-solid fa-person-hiking"></i>
+              <div class="trip-info-icon-detail">
+                <span class="text-muted trip-info-icon-header">Difficulty</span>
+                <span class="fw-bold trip-info-subheader">Strenuos
+                  <i class="fa-solid fa-circle-question trip-info-tooltip" type="button" class="btn btn-secondary"
+                    data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="The strenuous grade is both moderate and difficult. Even in this grade, treks reach around 5000-5500 meters. You walk generally 6-7 hours every day. Strenuous treks require good physical condition and acclimatization. if some problems appear, you have to walk down and take some hot drinks or soup. You may get affected fast if you have high blood pressure, asthma, heart disease or complicated medical conditions.">
+                  </i>
+                </span>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar">
-      <div class="navbar navbar-expand-lg menu-bar">
-        <div class="container-fluid navbar-container">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link" aria-current="page">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Destination</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Nepal</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Travel Info</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Company Info</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="page-hero">
-      <div class="container-fluid">
-        <div class="container trip-header">
-          <div class="trip-header-title">
-            <h4 class="text-light fw-bold">Everest Base Camp Trek - 14 Days</h4>
-            <p class="text-light">Price: US$ 1024 per person</p>
-          </div>
-          <div class="trip-header-btn">
-            <button class="btn btn-primary">Book Now</button>
-            <button class="btn btn-warning">Customize Trip</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- trip navbar -->
-    <div class="trip-navbar">
-      <div class="container">
-        <ul>
-          <li>
-            <a href="#">Overview</a>
-          </li>
-          <li>
-            <a href="#">Itinerary</a>
-          </li>
-          <li>
-            <a href="#">Trip Map</a>
-          </li>
-          <li>
-            <a href="#">Cost Includes & Excludes</a>
-          </li>
-          <li>
-            <a href="#">Dates & Price</a>
-          </li>
-          <li>
-            <a href="#">Useful Info</a>
-          </li>
-          <li>
-            <a href="#">FAQs</a>
-          </li>
-          <li>
-            <a href="#">Reviews</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- trip navbar ends -->
-
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-8 col-sm-12 trip-info-container">
-          <!-- trip info starts -->
-          <div class="trip-info">
-            <h4 class="title">Overview</h4>
-            <div class="row trip-info-icon-row mt-4">
-              <div class="col-auto trip-info-icon">
-                <i class="fa-regular fa-calendar"></i>
-                <div class="trip-info-icon-detail">
-                  <span class="text-muted trip-info-icon-header">Duration</span>
-                  <span class="fw-bold trip-info-subheader">14 Days</span>
-                </div>
+            <div class="col-auto trip-info-icon">
+              <i class="fa-solid fa-cloud-sun-rain"></i>
+              <div class="trip-info-icon-detail">
+                <span class="text-muted trip-info-icon-header">Best Season</span>
+                <span class="fw-bold trip-info-subheader">March-May & Sep-Nav</span>
               </div>
-              <div class="col-auto trip-info-icon">
-                <i class="fa-solid fa-person-hiking"></i>
-                <div class="trip-info-icon-detail">
-                  <span class="text-muted trip-info-icon-header"
-                    >Difficulty</span
-                  >
-                  <span class="fw-bold trip-info-subheader"
-                    >Strenuos
-                    <i
-                      class="fa-solid fa-circle-question trip-info-tooltip"
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="top"
-                      data-bs-custom-class="custom-tooltip"
-                      data-bs-title="The strenuous grade is both moderate and difficult. Even in this grade, treks reach around 5000-5500 meters. You walk generally 6-7 hours every day. Strenuous treks require good physical condition and acclimatization. if some problems appear, you have to walk down and take some hot drinks or soup. You may get affected fast if you have high blood pressure, asthma, heart disease or complicated medical conditions."
-                    >
-                    </i>
-                  </span>
-                </div>
-              </div>
-              <div class="col-auto trip-info-icon">
-                <i class="fa-solid fa-cloud-sun-rain"></i>
-                <div class="trip-info-icon-detail">
-                  <span class="text-muted trip-info-icon-header"
-                    >Best Season</span
-                  >
-                  <span class="fw-bold trip-info-subheader"
-                    >March-May & Sep-Nav</span
-                  >
-                </div>
-              </div>
-              <div class="col-auto trip-info-icon">
-                <i class="fa-solid fa-mountain"></i>
-                <div class="trip-info-icon-detail">
-                  <span class="text-muted trip-info-icon-header"
-                    >Max Altitude</span
-                  >
-                  <span class="fw-bold trip-info-subheader">5545m</span>
-                </div>
+            </div>
+            <div class="col-auto trip-info-icon">
+              <i class="fa-solid fa-mountain"></i>
+              <div class="trip-info-icon-detail">
+                <span class="text-muted trip-info-icon-header">Max Altitude</span>
+                <span class="fw-bold trip-info-subheader">5545m</span>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- extra paragraph for info starts -->
-          <p class="mt-4">
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-            archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
-            de las industrias desde el año 1500, cuando un impresor (N. del T.
-            persona que se dedica a la imprenta) desconocido usó una galería de
-            textos y los mezcló de tal manera que logró hacer un libro de textos
-            especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-            como texto de relleno en documentos electrónicos, quedando
-            esencialmente igual al original. Fue popularizado en los 60s con la
-            creación de las hojas "Letraset", las cuales contenian pasajes de
-            Lorem Ipsum, y más recientemente con software de autoedición, como
-            por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem
-            Ipsum.
-          </p>
+        <!-- extra paragraph for info starts -->
+        <p class="mt-4">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar
+          de las industrias desde el año 1500, cuando un impresor (N. del T.
+          persona que se dedica a la imprenta) desconocido usó una galería de
+          textos y los mezcló de tal manera que logró hacer un libro de textos
+          especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
+          como texto de relleno en documentos electrónicos, quedando
+          esencialmente igual al original. Fue popularizado en los 60s con la
+          creación de las hojas "Letraset", las cuales contenian pasajes de
+          Lorem Ipsum, y más recientemente con software de autoedición, como
+          por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem
+          Ipsum.
+        </p>
 
-          <!-- trip highlight starts -->
-          <div class="trip-highlight mt-5">
-            <h4 class="title">Trip Highlight</h4>
-            <ul>
-              <li>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y
-              </li>
-              <li>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y
-              </li>
-              <li>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y
-              </li>
-              <li>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y
-              </li>
-            </ul>
-          </div>
+        <!-- trip highlight starts -->
+        <div class="trip-highlight mt-5">
+          <h4 class="title">Trip Highlight</h4>
+          <ul>
+            <li>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas
+              y
+            </li>
+            <li>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas
+              y
+            </li>
+            <li>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas
+              y
+            </li>
+            <li>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas
+              y
+            </li>
+          </ul>
+        </div>
 
-          <!-- detail trip start -->
-          <div class="mt-5 detail-itinerary">
-            <span class="d-flex justify-content-between"
-              ><h4 class="title">Itinerary</h4>
-              <button class="btn btn-primary">Expand +</button>
-            </span>
+        <!-- detail trip start -->
+        <div class="mt-5 detail-itinerary">
+          <span class="d-flex justify-content-between">
+            <h4 class="title">Itinerary</h4>
+            <button class="btn btn-primary">Expand +</button>
+          </span>
 
-            <div class="accordion mt-3" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    <span class="detail-itinerary-days"
-                      >Day 1: Arrival in Kathmandu</span
-                    >
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#accordionExample"
-                >
-                  <img src="images/trip.jpg" alt="" />
-                  <div class="accordion-body">
-                    <p>
-                      Lorem Ipsum es simplemente el texto de relleno de las
-                      imprentas y archivos de texto. Lorem Ipsum ha sido el
-                      texto de relleno estándar de las industrias desde el año
-                      1500, cuando un impresor (N. del T. persona que se dedica
-                      a la imprenta) desconocido usó una galería de textos y los
-                      mezcló de tal manera que logró hacer un libro de textos
-                      especimen.
-                    </p>
-                    <div class="itinerary-icon-info mt-2">
-                      <ul>
-                        <li class="altitude">Maximum Altitude: 1400m</li>
-                        <li class="meals">Meals: B,L,D</li>
-                        <li class="accommodation">Accommodation: Hotel</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    <span class="detail-itinerary-days"
-                      >Day 2: Kathmandu to Lukla</span
-                    >
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <img src="images/lukla.jpg" alt="" />
-                  <div class="accordion-body">
-                    <p>
-                      Lorem Ipsum es simplemente el texto de relleno de las
-                      imprentas y archivos de texto. Lorem Ipsum ha sido el
-                      texto de relleno estándar de las industrias desde el año
-                      1500, cuando un impresor (N. del T. persona que se dedica
-                      a la imprenta) desconocido usó una galería de textos y los
-                      mezcló de tal manera que logró hacer un libro de textos
-                      especimen.
-                    </p>
-                    <div class="itinerary-icon-info mt-2">
-                      <ul>
-                        <li class="altitude">Maximum Altitude: 1400m</li>
-                        <li class="meals">Meals: B,L,D</li>
-                        <li class="accommodation">Accommodation: Hotel</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    <span class="detail-itinerary-days"
-                      >Day 3: Lukla to Namche Bazaar</span
-                    >
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
+          <div class="accordion mt-3" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <span class="detail-itinerary-days">Day 1: Arrival in Kathmandu</span>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <img src="images/trip.jpg" alt="" />
+                <div class="accordion-body">
+                  <p>
                     Lorem Ipsum es simplemente el texto de relleno de las
-                    imprentas y archivos de texto. Lorem Ipsum ha sido el texto
-                    de relleno estándar de las industrias desde el año 1500,
-                    cuando un impresor (N. del T. persona que se dedica a la
-                    imprenta) desconocido usó una galería de textos y los mezcló
-                    de tal manera que logró hacer un libro de textos especimen.
+                    imprentas y archivos de texto. Lorem Ipsum ha sido el
+                    texto de relleno estándar de las industrias desde el año
+                    1500, cuando un impresor (N. del T. persona que se dedica
+                    a la imprenta) desconocido usó una galería de textos y los
+                    mezcló de tal manera que logró hacer un libro de textos
+                    especimen.
+                  </p>
+                  <div class="itinerary-icon-info mt-2">
+                    <ul>
+                      <li class="altitude">Maximum Altitude: 1400m</li>
+                      <li class="meals">Meals: B,L,D</li>
+                      <li class="accommodation">Accommodation: Hotel</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- trip map starts -->
-          <div class="mt-5 trip-map">
-            <h4 class="title">Trip Map</h4>
-            <div class="trip-map-image mt-3">
-              <img src="images/map.jpg" alt="" />
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="detail-itinerary-days">Day 2: Kathmandu to Lukla</span>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <img src="images/lukla.jpg" alt="" />
+                <div class="accordion-body">
+                  <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las
+                    imprentas y archivos de texto. Lorem Ipsum ha sido el
+                    texto de relleno estándar de las industrias desde el año
+                    1500, cuando un impresor (N. del T. persona que se dedica
+                    a la imprenta) desconocido usó una galería de textos y los
+                    mezcló de tal manera que logró hacer un libro de textos
+                    especimen.
+                  </p>
+                  <div class="itinerary-icon-info mt-2">
+                    <ul>
+                      <li class="altitude">Maximum Altitude: 1400m</li>
+                      <li class="meals">Meals: B,L,D</li>
+                      <li class="accommodation">Accommodation: Hotel</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <!-- cost include and exclude starts -->
-          <div class="mt-5 cost-include">
-            <h4 class="title">Trip Inclusion</h4>
-            <div class="mt-4">
-              <button class="btn btn-success cost-include-btn me-3">
-                Cost Include
-              </button>
-              <button class="btn btn-outline-danger cost-exclude-btn">
-                Cost Exclude
-              </button>
-
-              <div>
-                <ul class="cost-include-content mt-3">
-                  <li>Domestic flight ticket</li>
-                  <li>Meals during trek</li>
-                  <li>Transportation</li>
-                  <li>Permits</li>
-                </ul>
-
-                <ul class="cost-exclude-content mt-3">
-                  <li>International ticket</li>
-                  <li>Personal expenses</li>
-                </ul>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="detail-itinerary-days">Day 3: Lukla to Namche Bazaar</span>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem Ipsum es simplemente el texto de relleno de las
+                  imprentas y archivos de texto. Lorem Ipsum ha sido el texto
+                  de relleno estándar de las industrias desde el año 1500,
+                  cuando un impresor (N. del T. persona que se dedica a la
+                  imprenta) desconocido usó una galería de textos y los mezcló
+                  de tal manera que logró hacer un libro de textos especimen.
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- fix departure date starts -->
-          <div class="fix-departure-date mt-5">
-            <h4 class="title">Fix Departure Date</h4>
+        <!-- trip map starts -->
+        <div class="mt-5 trip-map">
+          <h4 class="title">Trip Map</h4>
+          <div class="trip-map-image mt-3">
+            <img src="images/map.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- cost include and exclude starts -->
+        <div class="mt-5 cost-include">
+          <h4 class="title">Trip Inclusion</h4>
+          <div class="mt-4">
+            <button class="btn btn-success cost-include-btn me-3">
+              Cost Include
+            </button>
+            <button class="btn btn-outline-danger cost-exclude-btn">
+              Cost Exclude
+            </button>
+
             <div>
-              <div class="table-responsive">
-                <table class="table mt-3">
-                  <thead>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                    <th>Status</th>
+              <ul class="cost-include-content mt-3">
+                <li>Domestic flight ticket</li>
+                <li>Meals during trek</li>
+                <li>Transportation</li>
+                <li>Permits</li>
+              </ul>
+
+              <ul class="cost-exclude-content mt-3">
+                <li>International ticket</li>
+                <li>Personal expenses</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- fix departure date starts -->
+        <div class="fix-departure-date mt-5">
+          <h4 class="title">Fix Departure Date</h4>
+          <div>
+            <div class="table-responsive">
+              <table class="table mt-3">
+                <thead>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                  <th>Status</th>
+                  <th>Price</th>
+                  <th>Action</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="start-date">
+                      <span class="start-date-content">September 5, 2023</span>
+                    </td>
+                    <td class="end-date">
+                      <span class="end-date-content">September 19, 2023</span>
+                    </td>
+                    <td class="status">
+                      <span class="status-content text-success">Available</span>
+                    </td>
+                    <td class="price">
+                      <span class="price-content">US$1499/- pp</span>
+                    </td>
+                    <td class="action">
+                      <button class="btn btn-sm btn-success">Book Now</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="start-date">
+                      <span class="start-date-content text-danger">September 10, 2023</span>
+                    </td>
+                    <td class="end-date">
+                      <span class="end-date-content text-danger">September 24, 2023</span>
+                    </td>
+                    <td class="status">
+                      <span class="status-content text-danger">Unavailable</span>
+                    </td>
+                    <td class="price">
+                      <span class="price-content text-danger">US$1499/- pp</span>
+                    </td>
+                    <td class="action">
+                      <button class="btn btn-sm btn-success disabled">
+                        Book Now
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- vide0 and photo gallery starts -->
+        <div class="gallery mt-5"></div>
+      </div>
+      <div class="col-lg-3 col-sm-12 sidebarPrice">
+        <div class="price-box-header">
+          <i class="fa-solid fa-tag"></i>
+          <span class="d-flex flex-column">
+            <span class="price-box-title">Price Per Person</span>
+            <span class="price-box-price">US$1290/-</span>
+          </span>
+        </div>
+        <div class="price-box-body">
+          <div class="price-dropdown">
+            <div class="dropdown">
+              <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                We Offer Group Price
+              </button>
+              <span class="dropdown-menu">
+                <!-- <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                <table class="table
+                      ">
+                  <tr>
+                    <th>No of people</th>
                     <th>Price</th>
-                    <th>Action</th>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="start-date">
-                        <span class="start-date-content"
-                          >September 5, 2023</span
-                        >
-                      </td>
-                      <td class="end-date">
-                        <span class="end-date-content">September 19, 2023</span>
-                      </td>
-                      <td class="status">
-                        <span class="status-content text-success"
-                          >Available</span
-                        >
-                      </td>
-                      <td class="price">
-                        <span class="price-content">US$1499/- pp</span>
-                      </td>
-                      <td class="action">
-                        <button class="btn btn-sm btn-success">Book Now</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="start-date">
-                        <span class="start-date-content text-danger"
-                          >September 10, 2023</span
-                        >
-                      </td>
-                      <td class="end-date">
-                        <span class="end-date-content text-danger"
-                          >September 24, 2023</span
-                        >
-                      </td>
-                      <td class="status">
-                        <span class="status-content text-danger"
-                          >Unavailable</span
-                        >
-                      </td>
-                      <td class="price">
-                        <span class="price-content text-danger"
-                          >US$1499/- pp</span
-                        >
-                      </td>
-                      <td class="action">
-                        <button class="btn btn-sm btn-success disabled">
-                          Book Now
-                        </button>
-                      </td>
-                    </tr>
-                  </tbody>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>200</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>400</td>
+                  </tr>
                 </table>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row footer-container">
+        <div class="col-auto">
+          <div class="footer-title footer-contact">Contact us</div>
+          <ul>
+            <li>
+              <div class="footer-content">
+                <span class="fa-brands fa-whatsapp icons"></span>
+                <span>+977 1234567890</span>
               </div>
-            </div>
-          </div>
-
-          <!-- vide0 and photo gallery starts -->
-          <div class="gallery mt-5"></div>
+            </li>
+            <li>
+              <div class="footer-content">
+                <span class="fa-regular fa-envelope icons"></span>
+                <span>info@swifttreks.com</span>
+              </div>
+            </li>
+            <li>
+              <div class="footer-content">
+                <span class="fa-solid fa-location-dot icons"></span>
+                <span>Khusibu, Kathmandu, Nepal</span>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="col-4 sidebarPrice">Trip price</div>
+        <div class="col-auto">
+          <div class="footer-title">Useful links</div>
+          <ul>
+            <li>Trekking in Nepal</li>
+            <li>Travel blogs</li>
+            <li>Travel news</li>
+            <li>Activities</li>
+          </ul>
+        </div>
+        <div class="col-auto">
+          <div class="footer-title">Get to know us</div>
+          <ul>
+            <li>About us</li>
+            <li>Meet our team</li>
+            <li>Why choose us?</li>
+            <li>Contacy us</li>
+          </ul>
+        </div>
+        <div class="col-auto">
+          <div class="footer-title">Legal info</div>
+          <ul>
+            <li>Privacy policy</li>
+            <li>Terms and condition</li>
+            <li>Cancellation policy</li>
+            <li>Covid Protocol</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <div class="footer">
-      <div class="container">
-        <div class="row footer-container">
-          <div class="col-auto">
-            <div class="footer-title footer-contact">Contact us</div>
-            <ul>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-brands fa-whatsapp icons"></span>
-                  <span>+977 1234567890</span>
-                </div>
-              </li>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-regular fa-envelope icons"></span>
-                  <span>info@swifttreks.com</span>
-                </div>
-              </li>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-solid fa-location-dot icons"></span>
-                  <span>Khusibu, Kathmandu, Nepal</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <div class="footer-title">Useful links</div>
-            <ul>
-              <li>Trekking in Nepal</li>
-              <li>Travel blogs</li>
-              <li>Travel news</li>
-              <li>Activities</li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <div class="footer-title">Get to know us</div>
-            <ul>
-              <li>About us</li>
-              <li>Meet our team</li>
-              <li>Why choose us?</li>
-              <li>Contacy us</li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <div class="footer-title">Legal info</div>
-            <ul>
-              <li>Privacy policy</li>
-              <li>Terms and condition</li>
-              <li>Cancellation policy</li>
-              <li>Covid Protocol</li>
-            </ul>
-          </div>
+      <div class="row footer-copyright-section">
+        <div class="col-auto">&copy; Copyright 2023 Swift Treks</div>
+        <div class="col-auto">
+          <i class="fa-solid fa-code"></i> Develop by IT Sansaar
         </div>
-        <div class="row footer-copyright-section">
-          <div class="col-auto">&copy; Copyright 2023 Swift Treks</div>
-          <div class="col-auto">
-            <i class="fa-solid fa-code"></i> Develop by IT Sansaar
-          </div>
-          <div class="col-auto">
-            <div class="footer-social">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-youtube"></i>
-            </div>
+        <div class="col-auto">
+          <div class="footer-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 
-  <!-- bootstrap script file -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"
-  ></script>
+<!-- bootstrap script file -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-    const tooltipTriggerList = document.querySelectorAll(
-      '[data-bs-toggle="tooltip"]'
-    );
-    const tooltipList = [...tooltipTriggerList].map(
-      (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-    );
-  </script>
-  <script src="script/trip.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll(
+    '[data-bs-toggle="tooltip"]'
+  );
+  const tooltipList = [...tooltipTriggerList].map(
+    (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+  );
+</script>
+<script src="script/trip.js"></script>
+
 </html>
