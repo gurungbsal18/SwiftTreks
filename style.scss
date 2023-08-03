@@ -869,14 +869,12 @@ $dark: $gray-900;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }
-
 .price-box-header {
   color: #fff;
   background-color: $primary;
   padding: 10px 20px;
   display: flex;
-  align-items: flex-start;
-  align-items: center;
+
   gap: 13px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   z-index: 1;
@@ -897,9 +895,10 @@ $dark: $gray-900;
 .price-box-body {
   background-color: $primary;
   width: 100%;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   .price-dropdown {
     width: 100%;
     .dropdown-toggle {
@@ -912,5 +911,80 @@ $dark: $gray-900;
         width: 100% !important;
       }
     }
+  }
+  .fix-date-link a {
+    text-decoration: none;
+    color: $primary;
+    &:hover {
+      color: $primary2;
+    }
+  }
+
+  .booking-feature {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 0;
+      line-height: 2;
+      color: $white;
+      li::before {
+        content: "\f058";
+        font-family: FontAwesome;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.price-box-body .price-box-body-content {
+  background-color: $white;
+  padding: 5px 10px;
+  margin-top: 10px;
+  .trip-box-date {
+    label {
+      width: 100%;
+    }
+    input:focus {
+      border-color: $primary2;
+      box-shadow: none;
+    }
+  }
+
+  .traveler-number-input input:focus {
+    box-shadow: none;
+    border-color: $primary2;
+  }
+
+  .price-calculation {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .price-total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $primary;
+  }
+}
+// .traveler-number-input {
+//   position: relative;
+//   .buttons {
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//     button {
+//       background: $primary2;
+//       padding: 1px 5px;
+//       color: $white;
+//     }
+//   }
+// }
+.price-box-button {
+  .book-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
   }
 }

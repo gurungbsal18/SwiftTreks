@@ -19,6 +19,9 @@
   <!-- material ui fonts cdn -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
   <title>Swift Treks</title>
@@ -339,7 +342,7 @@
         </div>
 
         <!-- fix departure date starts -->
-        <div class="fix-departure-date mt-5">
+        <div class="fix-departure-date mt-5" id="fix-date-table">
           <h4 class="title">Fix Departure Date</h4>
           <div>
             <div class="table-responsive">
@@ -399,7 +402,7 @@
       </div>
       <div class="col-lg-3 col-sm-12 sidebarPrice">
         <div class="price-box-header">
-          <i class="fa-solid fa-tag"></i>
+          <i class="fa-solid fa-tag mt-2"></i>
           <span class="d-flex flex-column">
             <span class="price-box-title">Price Per Person</span>
             <span class="price-box-price">US$1290/-</span>
@@ -424,16 +427,70 @@
                   </tr>
                   <tr>
                     <td>1</td>
-                    <td>200</td>
+                    <td>US$ 799</td>
                   </tr>
                   <tr>
-                    <td>2</td>
-                    <td>400</td>
+                    <td>2-2</td>
+                    <td>US$ 699</td>
+                  </tr>
+                  <tr>
+                    <td>3-7</td>
+                    <td>US$ 599</td>
+                  </tr>
+                  <tr>
+                    <td>8-15</td>
+                    <td>US$ 499</td>
+                  </tr>
+                  <tr>
+                    <td>16-30</td>
+                    <td>US$ 375</td>
                   </tr>
                 </table>
               </span>
             </div>
           </div>
+          <div class="price-box-body-content">
+            <div class="form-group trip-box-date mt-2">
+              <label for="dateInput">
+                <input type="text" class="form-control" id="dateInput" placeholder="Select a date" />
+            </div>
+            <div class="fix-date-link mt-2">
+              <a href="#fix-date-table" class="">Or check avaibility</a>
+            </div>
+            <div class="traveler-number mt-2">
+              <div class="traveler-number-input">
+                <input type="number" class="form-control" placeholder="No of traveler">
+                <!-- <div class="buttons d-flex justify-content-between px-2 mt-2">
+                            <button class=" btn btn-sm decrease"><i class="fa-solid fa-minus"></i></button>
+                            <button class=" btn btn-sm increase"><i class="fa-solid fa-plus"></i></button>
+                          </div> -->
+              </div>
+
+            </div>
+            <div class="price-calculation mt-4">
+              <span class="calculation ">$400 x 2</span>
+              <span class="total-amount ">$800</span>
+            </div>
+            <div class="price-total mt-2 pt-2">
+              <span class="title ">Total</span>
+              <span class="price ">$800</span>
+            </div>
+          </div>
+
+          <div class="booking-feature mt-4">
+            <ul>
+              <li>No Booking Free</li>
+              <li>Free Cancellation</li>
+              <li>Secure Online Payment</li>
+            </ul>
+          </div>
+        </div>
+        <div class="price-box-button mt-3">
+          <div class="book-btn">
+            <button class="btn btn-primary w-100">Book Now</button>
+            <button class="btn btn-primary w-100">Send Inquiry</button>
+          </div>
+          <button class="btn btn-warning w-100 mt-2">Customize Trip</button>
         </div>
       </div>
     </div>
@@ -515,6 +572,9 @@
 <!-- bootstrap script file -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+<!-- Flatpickr JS -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
