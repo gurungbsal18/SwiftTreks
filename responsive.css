@@ -868,6 +868,11 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.trip-gallery .title::before {
+  content: "\f87c";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
 
 @media (max-width: 567px) {
   .hero-image-front img {
@@ -899,7 +904,7 @@
     gap: 10px;
   }
   .trip-navbar ul li {
-    text-wrap: nowrap;
+    word-wrap: nowrap;
   }
   .blog-card-row {
     flex-wrap: nowrap !important;
