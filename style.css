@@ -258,10 +258,14 @@
   border-radius: 10px 0 0 10px;
   color: #fff;
 }
+.trip-card .feature-text p {
+  color: #fff;
+}
 .trip-card .group-text {
   left: 0;
   background: #ffc107;
   border-radius: 0 10px 10px 0;
+  color: #000;
 }
 .trip-card .feature-text,
 .trip-card .group-text {
@@ -342,6 +346,15 @@
   display: flex;
   justify-content: space-between;
 }
+.trips-card a {
+  text-decoration: none !important;
+}
+.trips-card p {
+  color: #000;
+}
+.trips-card h4 {
+  color: #1a7b89;
+}
 
 .blog-card {
   text-align: left;
@@ -350,6 +363,12 @@
 .blog-card-row {
   display: flex;
   justify-content: space-between;
+}
+.blog-card a {
+  text-decoration: none;
+}
+.blog-card p {
+  color: #000;
 }
 .blog-date {
   margin-bottom: 10px;

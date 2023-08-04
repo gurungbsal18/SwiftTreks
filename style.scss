@@ -317,12 +317,16 @@ $dark: $gray-900;
     background: $danger;
     border-radius: 10px 0 0 10px;
     color: $white;
+    p {
+      color: $white;
+    }
   }
 
   .group-text {
     left: 0;
     background: $warning;
     border-radius: 0 10px 10px 0;
+    color: $black;
   }
 
   .feature-text,
@@ -411,6 +415,15 @@ $dark: $gray-900;
     display: flex;
     justify-content: space-between;
   }
+  a {
+    text-decoration: none !important;
+  }
+  p {
+    color: #000;
+  }
+  h4 {
+    color: $primary;
+  }
 }
 
 .blog {
@@ -420,6 +433,12 @@ $dark: $gray-900;
     &-row {
       display: flex;
       justify-content: space-between;
+    }
+    a {
+      text-decoration: none;
+    }
+    p {
+      color: $black;
     }
   }
   &-date {
