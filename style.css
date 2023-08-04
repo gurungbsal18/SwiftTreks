@@ -234,8 +234,17 @@
 .trip-card-body {
   padding: 20px 10px;
 }
-.trip-card .location p {
-  font-size: 12px;
+.trip-card-body .trip-card-location::before {
+  content: "\f3c5" !important;
+  font-family: "FontAwesome" !important;
+  margin-right: 3px;
+  font-size: 16px;
+}
+.trip-card-body .trip-card-days::before {
+  content: "\f133";
+  font-family: "FontAwesome" !important;
+  margin-right: 3px;
+  font-size: 16px;
 }
 .trip-card-review span {
   color: #ffc107;
@@ -343,15 +352,16 @@
   justify-content: space-between;
 }
 .blog-date {
-  display: flex;
-  justify-content: flex-start;
-  gap: 5px;
-  align-items: center;
   margin-bottom: 10px;
   color: #6c757d;
 }
 .blog-date p {
   margin: 0;
+}
+.blog-date p::before {
+  content: "\f133";
+  font-family: "FontAwesome";
+  margin-right: 5px;
 }
 
 .newsletter {
@@ -873,4 +883,63 @@
   content: "\f87c";
   font-family: FontAwesome;
   margin-right: 5px;
+  color: #1a7b89;
+}
+
+.trip-faq .title::before {
+  content: "\f059";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+  color: #1a7b89;
+}
+.trip-faq .accordion-button:not(.collapsed) {
+  background-color: #f7941d;
+  color: #000;
+}
+.trip-faq .accordion-button {
+  background: #f7941d;
+  color: #000;
+}
+.trip-faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+.trip-review .title::before {
+  content: "\f086";
+  font-family: "FontAwesome";
+  color: #1a7b89;
+  margin-right: 5px;
+}
+.trip-review .reviews .traveler-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.trip-review .review-box {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.trip-review .review-box .traveler-rate {
+  color: #ffc107;
+}
+.trip-review .review-box .traveler-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.trip-review .review-box .traveler-info .traveler-name {
+  font-weight: 700;
+}
+.trip-review .review-box .traveler-info .traveler-date {
+  font-size: 12px;
+}
+.trip-review .review-box .traveler-info .traveler-trip-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a7b89;
+}
+
+.trip-similar-packages .trip-card {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

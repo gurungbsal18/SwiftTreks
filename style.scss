@@ -290,10 +290,17 @@ $dark: $gray-900;
   }
   &-body {
     padding: 20px 10px;
-  }
-  .location {
-    p {
-      font-size: 12px;
+    .trip-card-location::before {
+      content: "\f3c5" !important;
+      font-family: "FontAwesome" !important;
+      margin-right: 3px;
+      font-size: 16px;
+    }
+    .trip-card-days::before {
+      content: "\f133";
+      font-family: "FontAwesome" !important;
+      margin-right: 3px;
+      font-size: 16px;
     }
   }
   &-review {
@@ -416,14 +423,15 @@ $dark: $gray-900;
     }
   }
   &-date {
-    display: flex;
-    justify-content: flex-start;
-    gap: 5px;
-    align-items: center;
     margin-bottom: 10px;
     color: $secondary;
     p {
       margin: 0;
+      &::before {
+        content: "\f133";
+        font-family: "FontAwesome";
+        margin-right: 5px;
+      }
     }
   }
 }
@@ -1001,5 +1009,72 @@ $dark: $gray-900;
     content: "\f87c";
     font-family: FontAwesome;
     margin-right: 5px;
+    color: $primary;
+  }
+}
+
+.trip-faq {
+  .title::before {
+    content: "\f059";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+    color: $primary;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $primary2;
+    color: #000;
+  }
+  .accordion-button {
+    background: $primary2;
+    color: $black;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+.trip-review {
+  .title::before {
+    content: "\f086";
+    font-family: "FontAwesome";
+    color: $primary;
+    margin-right: 5px;
+  }
+  .reviews {
+    .traveler-img img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .review-box {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    .traveler-rate {
+      color: $warning;
+    }
+    .traveler-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .traveler-name {
+        font-weight: 700;
+      }
+      .traveler-date {
+        font-size: 12px;
+      }
+      .traveler-trip-title {
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: $primary;
+      }
+    }
+  }
+}
+
+.trip-similar-packages {
+  .trip-card {
+    margin: 0;
   }
 }

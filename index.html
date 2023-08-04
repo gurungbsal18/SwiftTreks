@@ -1,738 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- bootstrap cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
 
-    <!-- fontawesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 
-    <!-- material ui fonts cdn -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- material ui fonts cdn -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
-    <title>Swift Treks</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="top-bar">
-        <div class="top-bar-logo py-3">
-          <img src="./images/Logo.png" alt="" />
-        </div>
-        <div class="top-bar-contact">
-          <div class="row">
-            <div class="col">
-              <span>Quick questions? Email us</span><br />
-              <span
-                ><a href="mailto:swiftholidaysnepal@gmail.com" target="_blank"
-                  >swiftholidaysnepal@gmail.com</a
-                ></span
-              >
-            </div>
-            <div class="col">
-              <span>Need Help Booking? Call us</span><br />
-              <span
-                ><a href="tel:009779803248087" target="_blank">
-                  <i class="fa-brands fa-whatsapp top-bar-whatsapp"></i>
-                  <i class="fa-brands fa-viber top-bar-viber"></i>
-                  +977 9803248087
-                </a></span
-              >
-            </div>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <title>Swift Treks</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <div class="top-bar-logo py-3">
+        <img src="./images/Logo.png" alt="" />
+      </div>
+      <div class="top-bar-contact">
+        <div class="row">
+          <div class="col">
+            <span>Quick questions? Email us</span><br />
+            <span><a href="mailto:swiftholidaysnepal@gmail.com" target="_blank">swiftholidaysnepal@gmail.com</a></span>
+          </div>
+          <div class="col">
+            <span>Need Help Booking? Call us</span><br />
+            <span><a href="tel:009779803248087" target="_blank">
+                <i class="fa-brands fa-whatsapp top-bar-whatsapp"></i>
+                <i class="fa-brands fa-viber top-bar-viber"></i>
+                +977 9803248087
+              </a></span>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="navbar">
-      <div class="navbar navbar-expand-lg menu-bar">
-        <div class="container-fluid navbar-container">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link" aria-current="page">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Destination</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Nepal</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Travel Info</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Company Info</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+  <div class="navbar">
+    <div class="navbar navbar-expand-lg menu-bar">
+      <div class="container-fluid navbar-container">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Nepal</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Travel Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Company Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="hero">
-      <div class="hero-image-front">
-        <img
-          src="/images/nepal -hero.png"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="top-center"
-          data-aos-easing="ease-in-out"
-        />
-        <input
-          type="text"
-          placeholder="Find your holidays"
-          class="search-bar"
-        />
-      </div>
+  <div class="hero">
+    <div class="hero-image-front">
+      <img src="/images/nepal -hero.png" data-aos="fade-up" data-aos-duration="1000"
+        data-aos-anchor-placement="top-center" data-aos-easing="ease-in-out" />
+      <input type="text" placeholder="Find your holidays" class="search-bar" />
+    </div>
+  </div>
+
+  <div class="header-offer container">
+    <div class="d-flex align-items-center text-light">
+      <span class="material-icons me-2"> discount </span>
+      <p class="m-0">
+        For Everest Base Camp Trek 2024, Booking and Fixed Departure Dates
+      </p>
+    </div>
+    <div>
+      <button class="btn btn-sm btn-warning">Explore</button>
+    </div>
+  </div>
+
+  <!-- best selling tour starts -->
+
+  <div class="homepage-tours homepage-sm-padding container">
+    <div class="homepage-title">
+      <h4 class="title-shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" ,>
+        Best Selling Tours
+      </h4>
+      <h4 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" ,>
+        Best Selling Tours
+      </h4>
     </div>
 
-    <div class="header-offer container">
-      <div class="d-flex align-items-center text-light">
-        <span class="material-icons me-2"> discount </span>
-        <p class="m-0">
-          For Everest Base Camp Trek 2024, Booking and Fixed Departure Dates
-        </p>
-      </div>
-      <div>
-        <button class="btn btn-sm btn-warning">Explore</button>
-      </div>
-    </div>
-
-    <!-- best selling tour starts -->
-
-    <div class="homepage-tours homepage-sm-padding container">
-      <div class="homepage-title">
-        <h4
-          class="title-shadow"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          ,
-        >
-          Best Selling Tours
-        </h4>
-        <h4
-          class="main-title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          ,
-        >
-          Best Selling Tours
-        </h4>
-      </div>
-
-      <!-- This trips needs to be shown in slider -->
-      <div class="row best-selling-tour">
-        <div class="col-md-auto col-sm-12 slider-card">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div class="trip-card-div">
-                <div class="feature-text">
-                  <span class="material-icons feature-icon me-2">
-                    flash_on
+    <!-- This trips needs to be shown in slider -->
+    <div class="row best-selling-tour">
+      <div class="col-md-auto col-sm-12 slider-card">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div class="trip-card-div">
+              <div class="feature-text">
+                <span class="material-icons feature-icon me-2">
+                  flash_on
+                </span>
+                <p>Feature</p>
+              </div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
                   </span>
-                  <p>Feature</p>
-                </div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-auto col-sm-12 slider-card">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div class="trip-card-div">
-                <div class="group-text">
-                  <span class="material-icons group-icon me-2"> flash_on </span>
-                  <p>Group Tours</p>
-                </div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-auto col-sm-12 slider-card">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-auto col-sm-12 slider-card">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-auto col-sm-12 slider-card">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="trip-slider">
-        <i class="fa-solid fa-arrow-left text-muted"></i>
-        <i class="fa-solid fa-arrow-right text-muted"></i>
-      </div>
-    </div>
-
-    <!-- best selling tours end -->
-
-    <!-- banner image starts -->
-
-    <div class="home-banner text-center my-5">
-      <div
-        class="content container"
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-        data-aos-duration="1900"
-        data-aos-offset="-300"
-      >
-        <h4>Explore Himalayas</h4>
-        <p>
-          “Embark upon the adventure of a lifetime when you visit the highest
-          mountains on the planet in the company of Alpine Ramble Treks. Our
-          experienced team will be your trusted partners as you encounter the
-          staggering beauty and rich cultural heritage of Nepal, Tibet, and
-          Bhutan.”
-        </p>
-        <button class="btn btn-sm btn-warning">Plan Your Trip</button>
-      </div>
-    </div>
-
-    <!-- banner image ends -->
-
-    <!-- trending package starts -->
-
-    <div class="homepage-tours container">
-      <div class="homepage-title">
-        <h4
-          class="title-shadow"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          ,
-        >
-          Trending Packages
-        </h4>
-        <h4
-          class="main-title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          ,
-        >
-          Trending Packages
-        </h4>
-      </div>
-      <div class="row trips-card-row">
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row trips-card-row">
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-          <div class="trips-card">
-            <div class="trip-card">
-              <div>
-                <img src="./images/trip.jpg" alt="" />
-              </div>
-              <div class="trip-card-body">
-                <div class="d-flex justify-content-between location">
-                  <p class="text-muted d-flex align-items-center">
-                    <span class="material-icons"> location_on </span>Khumbu
-                    Region, Nepal
-                  </p>
-                  <div class="trip-card-review">
-                    <p class="text-muted">19 Reviews</p>
-                    <span class="review-star">
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                      <span class="material-icons"> star </span>
-                    </span>
-                  </div>
-                </div>
-                <h4>Everest Base Camp Trek</h4>
-                <div class="d-flex justify-content-between pt-3">
-                  <p class="m-0 d-flex align-items-center">
-                    <span class="material-icons me-1"> calendar_month </span>14
-                    Days
-                  </p>
-                  <p class="m-0">
-                    US$1090/<span class="text-muted fs-12">per person</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="btn btn-success mt-4">View all</div>
-    </div>
-
-    <!-- trending package ends -->
-
-    <!-- blog section starts -->
-
-    <!-- blog cards needs to in slider -->
-
-    <div class="container homepage-tours homepage-sm-padding my-4">
-      <div class="homepage-title">
-        <h4
-          class="title-shadow"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-        >
-          Blogs
-        </h4>
-        <h4
-          class="main-title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-        >
-          Blogs
-        </h4>
-      </div>
-
-      <!-- blog card -->
-      <div class="blog-card">
-        <div class="row blog-card-row">
-          <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
-            <div class="card">
-              <img src="./images/trip.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <div class="blog-date">
-                  <i class="fa-regular fa-calendar-days"></i>
-                  <p>Date: 12/12/2023</p>
-                </div>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
-            <div class="card">
-              <img src="./images/trip.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <div class="blog-date">
-                  <i class="fa-regular fa-calendar-days"></i>
-                  <p>Date: 12/6/2023</p>
+        </div>
+      </div>
+      <div class="col-md-auto col-sm-12 slider-card">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div class="trip-card-div">
+              <div class="group-text">
+                <span class="material-icons group-icon me-2"> flash_on </span>
+                <p>Group Tours</p>
+              </div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
                 </div>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
-            <div class="card">
-              <img src="./images/trip.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <div class="blog-date">
-                  <i class="fa-regular fa-calendar-days"></i>
-                  <p>Date: 12/12/2023</p>
+        </div>
+      </div>
+      <div class="col-md-auto col-sm-12 slider-card">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
                 </div>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
-            <div class="card">
-              <img src="./images/trip.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <div class="blog-date">
-                  <i class="fa-regular fa-calendar-days"></i>
-                  <p>Date: 12/12/2023</p>
+        </div>
+      </div>
+      <div class="col-md-auto col-sm-12 slider-card">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
                 </div>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-auto col-sm-12 slider-card">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
                 </p>
               </div>
             </div>
@@ -740,379 +308,680 @@
         </div>
       </div>
     </div>
+    <div class="trip-slider">
+      <i class="fa-solid fa-arrow-left text-muted"></i>
+      <i class="fa-solid fa-arrow-right text-muted"></i>
+    </div>
+  </div>
 
-    <!-- blog section ends -->
+  <!-- best selling tours end -->
 
-    <!-- newsletter starts -->
+  <!-- banner image starts -->
 
+  <div class="home-banner text-center my-5">
+    <div class="content container" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1900"
+      data-aos-offset="-300">
+      <h4>Explore Himalayas</h4>
+      <p>
+        “Embark upon the adventure of a lifetime when you visit the highest
+        mountains on the planet in the company of Alpine Ramble Treks. Our
+        experienced team will be your trusted partners as you encounter the
+        staggering beauty and rich cultural heritage of Nepal, Tibet, and
+        Bhutan.”
+      </p>
+      <button class="btn btn-sm btn-warning">Plan Your Trip</button>
+    </div>
+  </div>
+
+  <!-- banner image ends -->
+
+  <!-- trending package starts -->
+
+  <div class="homepage-tours container">
+    <div class="homepage-title">
+      <h4 class="title-shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" ,>
+        Trending Packages
+      </h4>
+      <h4 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" ,>
+        Trending Packages
+      </h4>
+    </div>
+    <div class="row trips-card-row">
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="material-icons"> location_on </span>Khumbu
+                  Region, Nepal
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="material-icons me-1"> calendar_month </span>14
+                  Days
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="material-icons"> location_on </span>Khumbu
+                  Region, Nepal
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="material-icons me-1"> calendar_month </span>14
+                  Days
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="material-icons"> location_on </span>Khumbu
+                  Region, Nepal
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="material-icons me-1"> calendar_month </span>14
+                  Days
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row trips-card-row">
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="trips-card">
+          <div class="trip-card">
+            <div>
+              <img src="./images/trip.jpg" alt="" />
+            </div>
+            <div class="trip-card-body">
+              <div class="d-flex justify-content-between location">
+                <p class="text-muted d-flex align-items-center">
+                  <span class="trip-card-location">Khumbu Region, Nepal test</span>
+                </p>
+                <div class="trip-card-review">
+                  <p class="text-muted">19 Reviews</p>
+                  <span class="review-star">
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </span>
+                </div>
+              </div>
+              <h4>Everest Base Camp Trek</h4>
+              <div class="d-flex justify-content-between pt-3">
+                <p class="m-0 d-flex align-items-center">
+                  <span class="trip-card-days">14 Days</span>
+                </p>
+                <p class="m-0">
+                  US$1090/<span class="text-muted fs-12">per person</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn btn-success mt-4">View all</div>
+  </div>
+
+  <!-- trending package ends -->
+
+  <!-- blog section starts -->
+
+  <!-- blog cards needs to in slider -->
+
+  <div class="container homepage-tours homepage-sm-padding my-4">
+    <div class="homepage-title">
+      <h4 class="title-shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out">
+        Blogs
+      </h4>
+      <h4 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out">
+        Blogs
+      </h4>
+    </div>
+
+    <!-- blog card -->
+    <div class="blog-card">
+      <div class="row blog-card-row">
+        <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
+          <div class="card">
+            <img src="./images/trip.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="blog-date">
+                <p>Date: 12/12/2023</p>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
+          <div class="card">
+            <img src="./images/trip.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="blog-date">
+                <p>Date: 12/6/2023</p>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
+          <div class="card">
+            <img src="./images/trip.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="blog-date">
+                <p>Date: 12/12/2023</p>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 slider-blog">
+          <div class="card">
+            <img src="./images/trip.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <div class="blog-date">
+                <p>Date: 12/12/2023</p>
+              </div>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- blog section ends -->
+
+  <!-- newsletter starts -->
+
+  <div class="container">
+    <div class="newsletter" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+      data-aos-easing="ease-in-out" data-aos-offset="-500">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="newsletter-image">
+            <!-- <img src="./images/heroImage.jpg" /> -->
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="content">
+            <h4>
+              Get special offer, and <br />
+              more from <span>Swift Treks</span>
+            </h4>
+            <p class="text-muted">
+              Subscribe to see deals price drop the moment you sign up!
+            </p>
+            <div class="subscribe-email">
+              <div>
+                <input type="text" />
+              </div>
+              <div class="btn btn-success btn-sm subscribe-btn">
+                Subscribe
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- newsletter ends -->
+
+  <!-- recoomended starts -->
+
+  <div class="container homepage-tours my-4">
+    <div class="homepage-title">
+      <h4 class="title-shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" data-aos-offset="-300">
+        Reccommended On
+      </h4>
+      <h4 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" data-aos-offset="-300">
+        Recommended On
+      </h4>
+    </div>
+
+    <div class="reccommended-logo">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/tripadvisorLogo.png" />
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/lonelyplanetLogo.png" />
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img src="./images/getyourguideLogo.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="reccommended-cards">
+      <div class="row">
+        <div class="col-lg-3 col-sm-12 card-1">
+          <div class="title d-flex justify-content-between text-start">
+            <p>
+              Book with<br />
+              confidence
+            </p>
+            <span class="material-icons">admin_panel_settings</span>
+          </div>
+          <p class="text-start text-muted content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+            quidem quasi saepe atque illo necessitatibus placeat minus hic
+            dolorem aperiam ratione unde molestias praesentium eos magnam,
+            earum labore explicabo cupiditate.
+          </p>
+          <button class="btn btn-sm btn-warning d-flex justify-content-start">
+            Learn more
+          </button>
+        </div>
+        <div class="col-lg-3 col-sm-12 card-2">
+          <div class="title d-flex justify-content-between text-start">
+            <p>
+              Travel with<br />
+              confidence
+            </p>
+            <span class="material-icons">admin_panel_settings</span>
+          </div>
+          <p class="text-start text-muted content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+            quidem quasi saepe atque illo necessitatibus placeat minus hic
+            dolorem aperiam ratione unde molestias praesentium eos magnam,
+            earum labore explicabo cupiditate.
+          </p>
+          <button class="btn btn-sm btn-warning d-flex justify-content-start">
+            Learn more
+          </button>
+        </div>
+        <div class="col-lg-3 col-sm-12 card-3">
+          <div class="title d-flex justify-content-between text-start">
+            <p>
+              Privacy and<br />
+              policy
+            </p>
+            <span class="material-icons">admin_panel_settings</span>
+          </div>
+          <p class="text-start text-muted content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+            quidem quasi saepe atque illo necessitatibus placeat minus hic
+            dolorem aperiam ratione unde molestias praesentium eos magnam,
+            earum labore explicabo cupiditate.
+          </p>
+          <button class="btn btn-sm btn-warning d-flex justify-content-start">
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- recoomended ends -->
+
+  <!-- review starts -->
+
+  <div class="container homepage-tours my-4">
+    <div class="homepage-title">
+      <h4 class="title-shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" data-aos-offset="-900">
+        Review from our guests
+      </h4>
+      <h4 class="main-title" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom"
+        data-aos-easing="ease-in-out" data-aos-offset="-500">
+        Review from our guests
+      </h4>
+    </div>
+
+    <div class="review">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="review">
+              <div class="review-img">
+                <img src="./images/user.png" />
+              </div>
+              <div class="review-name mt-3">Traveller</div>
+              <div class="review-trip">Annapurna Base Camp Trek</div>
+              <div class="review-rate">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+              </div>
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
+                  diam. Nunc tincidunt metus malesuada erat accumsan, eu
+                  finibus dolor rutrum. In imperdiet viverra dapibus. In hac
+                  habitasse platea dictumst. Donec ullamcorper vitae ex nec
+                  tempor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="review">
+              <div class="review-img">
+                <img src="./images/user.png" />
+              </div>
+              <div class="review-name mt-3">Traveller</div>
+              <div class="review-trip">Annapurna Base Camp Trek</div>
+              <div class="review-rate">
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+                <span class="material-icons">star</span>
+              </div>
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
+                  diam. Nunc tincidunt metus malesuada erat accumsan, eu
+                  finibus dolor rutrum. In imperdiet viverra dapibus. In hac
+                  habitasse platea dictumst. Donec ullamcorper vitae ex nec
+                  tempor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="review">
+              <div class="review-img">
+                <img src="./images/user.png" />
+              </div>
+              <div class="review-name mt-3">Traveller</div>
+              <div class="review-trip">Annapurna Base Camp Trek</div>
+              <div class="review-rate">
+                <span class="review-star">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                </span>
+              </div>
+              <div class="review-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
+                  diam. Nunc tincidunt metus malesuada erat accumsan, eu
+                  finibus dolor rutrum. In imperdiet viverra dapibus. In hac
+                  habitasse platea dictumst. Donec ullamcorper vitae ex nec
+                  tempor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="review-btn">
+        <button class="btn btn-sm btn-warning">Read all</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- review ends -->
+
+  <!-- footer starts -->
+
+  <div class="footer">
     <div class="container">
-      <div
-        class="newsletter"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-anchor-placement="bottom-bottom"
-        data-aos-easing="ease-in-out"
-        data-aos-offset="-500"
-      >
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="newsletter-image">
-              <!-- <img src="./images/heroImage.jpg" /> -->
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="content">
-              <h4>
-                Get special offer, and <br />
-                more from <span>Swift Treks</span>
-              </h4>
-              <p class="text-muted">
-                Subscribe to see deals price drop the moment you sign up!
-              </p>
-              <div class="subscribe-email">
-                <div>
-                  <input type="text" />
-                </div>
-                <div class="btn btn-success btn-sm subscribe-btn">
-                  Subscribe
-                </div>
+      <div class="row footer-container">
+        <div class="col-lg-auto col-md-4">
+          <div class="footer-title footer-contact">Contact us</div>
+          <ul>
+            <li>
+              <div class="footer-content">
+                <span class="fa-brands fa-whatsapp icons"></span>
+                <span>+977 1234567890</span>
               </div>
-            </div>
+            </li>
+            <li>
+              <div class="footer-content">
+                <span class="fa-regular fa-envelope icons"></span>
+                <span>info@swifttreks.com</span>
+              </div>
+            </li>
+            <li>
+              <div class="footer-content">
+                <span class="fa-solid fa-location-dot icons"></span>
+                <span>Khusibu, Kathmandu, Nepal</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-auto col-md-4">
+          <div class="footer-title">Useful links</div>
+          <ul>
+            <li>Trekking in Nepal</li>
+            <li>Travel blogs</li>
+            <li>Travel news</li>
+            <li>Activities</li>
+          </ul>
+        </div>
+        <div class="col-lg-auto col-md-4">
+          <div class="footer-title">Get to know us</div>
+          <ul>
+            <li>About us</li>
+            <li>Meet our team</li>
+            <li>Why choose us?</li>
+            <li>Contacy us</li>
+          </ul>
+        </div>
+        <div class="col-lg-auto col-md-12 legal-info">
+          <div class="footer-title">Legal info</div>
+          <ul>
+            <li>Privacy policy</li>
+            <li>Terms and condition</li>
+            <li>Cancellation policy</li>
+            <li>Covid Protocol</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footer-copyright-section">
+        <div class="col-auto">&copy; Copyright 2023 Swift Treks</div>
+        <div class="col-auto">
+          <i class="fa-solid fa-code"></i> Develop by IT Sansaar
+        </div>
+        <div class="col-auto">
+          <div class="footer-social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- newsletter ends -->
+  <!-- footer ends -->
+</body>
 
-    <!-- recoomended starts -->
+<!-- bootstrap script file -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
-    <div class="container homepage-tours my-4">
-      <div class="homepage-title">
-        <h4
-          class="title-shadow"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          data-aos-offset="-300"
-        >
-          Reccommended On
-        </h4>
-        <h4
-          class="main-title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          data-aos-offset="-300"
-        >
-          Recommended On
-        </h4>
-      </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
-      <div class="reccommended-logo">
-        <div class="row d-flex align-items-center justify-content-between">
-          <div class="col-md-4 col-sm-12">
-            <img src="./images/tripadvisorLogo.png" />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img src="./images/lonelyplanetLogo.png" />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img src="./images/getyourguideLogo.png" />
-          </div>
-        </div>
-      </div>
-
-      <div class="reccommended-cards">
-        <div class="row">
-          <div class="col-lg-3 col-sm-12 card-1">
-            <div class="title d-flex justify-content-between text-start">
-              <p>
-                Book with<br />
-                confidence
-              </p>
-              <span class="material-icons">admin_panel_settings</span>
-            </div>
-            <p class="text-start text-muted content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-              quidem quasi saepe atque illo necessitatibus placeat minus hic
-              dolorem aperiam ratione unde molestias praesentium eos magnam,
-              earum labore explicabo cupiditate.
-            </p>
-            <button class="btn btn-sm btn-warning d-flex justify-content-start">
-              Learn more
-            </button>
-          </div>
-          <div class="col-lg-3 col-sm-12 card-2">
-            <div class="title d-flex justify-content-between text-start">
-              <p>
-                Travel with<br />
-                confidence
-              </p>
-              <span class="material-icons">admin_panel_settings</span>
-            </div>
-            <p class="text-start text-muted content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-              quidem quasi saepe atque illo necessitatibus placeat minus hic
-              dolorem aperiam ratione unde molestias praesentium eos magnam,
-              earum labore explicabo cupiditate.
-            </p>
-            <button class="btn btn-sm btn-warning d-flex justify-content-start">
-              Learn more
-            </button>
-          </div>
-          <div class="col-lg-3 col-sm-12 card-3">
-            <div class="title d-flex justify-content-between text-start">
-              <p>
-                Privacy and<br />
-                policy
-              </p>
-              <span class="material-icons">admin_panel_settings</span>
-            </div>
-            <p class="text-start text-muted content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
-              quidem quasi saepe atque illo necessitatibus placeat minus hic
-              dolorem aperiam ratione unde molestias praesentium eos magnam,
-              earum labore explicabo cupiditate.
-            </p>
-            <button class="btn btn-sm btn-warning d-flex justify-content-start">
-              Learn more
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- recoomended ends -->
-
-    <!-- review starts -->
-
-    <div class="container homepage-tours my-4">
-      <div class="homepage-title">
-        <h4
-          class="title-shadow"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          data-aos-offset="-900"
-        >
-          Review from our guests
-        </h4>
-        <h4
-          class="main-title"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-anchor-placement="bottom-bottom"
-          data-aos-easing="ease-in-out"
-          data-aos-offset="-500"
-        >
-          Review from our guests
-        </h4>
-      </div>
-
-      <div class="review">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="review">
-                <div class="review-img">
-                  <img src="./images/user.png" />
-                </div>
-                <div class="review-name mt-3">Traveller</div>
-                <div class="review-trip">Annapurna Base Camp Trek</div>
-                <div class="review-rate">
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                </div>
-                <div class="review-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
-                    diam. Nunc tincidunt metus malesuada erat accumsan, eu
-                    finibus dolor rutrum. In imperdiet viverra dapibus. In hac
-                    habitasse platea dictumst. Donec ullamcorper vitae ex nec
-                    tempor.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="review">
-                <div class="review-img">
-                  <img src="./images/user.png" />
-                </div>
-                <div class="review-name mt-3">Traveller</div>
-                <div class="review-trip">Annapurna Base Camp Trek</div>
-                <div class="review-rate">
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                </div>
-                <div class="review-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
-                    diam. Nunc tincidunt metus malesuada erat accumsan, eu
-                    finibus dolor rutrum. In imperdiet viverra dapibus. In hac
-                    habitasse platea dictumst. Donec ullamcorper vitae ex nec
-                    tempor.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="review">
-                <div class="review-img">
-                  <img src="./images/user.png" />
-                </div>
-                <div class="review-name mt-3">Traveller</div>
-                <div class="review-trip">Annapurna Base Camp Trek</div>
-                <div class="review-rate">
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                  <span class="material-icons">star</span>
-                </div>
-                <div class="review-content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi et blandit nunc. In et rutrum nulla. Duis vitae tempus
-                    diam. Nunc tincidunt metus malesuada erat accumsan, eu
-                    finibus dolor rutrum. In imperdiet viverra dapibus. In hac
-                    habitasse platea dictumst. Donec ullamcorper vitae ex nec
-                    tempor.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-        <div class="review-btn">
-          <button class="btn btn-sm btn-warning">Read all</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- review ends -->
-
-    <!-- footer starts -->
-
-    <div class="footer">
-      <div class="container">
-        <div class="row footer-container">
-          <div class="col-lg-auto col-md-4">
-            <div class="footer-title footer-contact">Contact us</div>
-            <ul>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-brands fa-whatsapp icons"></span>
-                  <span>+977 1234567890</span>
-                </div>
-              </li>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-regular fa-envelope icons"></span>
-                  <span>info@swifttreks.com</span>
-                </div>
-              </li>
-              <li>
-                <div class="footer-content">
-                  <span class="fa-solid fa-location-dot icons"></span>
-                  <span>Khusibu, Kathmandu, Nepal</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-auto col-md-4">
-            <div class="footer-title">Useful links</div>
-            <ul>
-              <li>Trekking in Nepal</li>
-              <li>Travel blogs</li>
-              <li>Travel news</li>
-              <li>Activities</li>
-            </ul>
-          </div>
-          <div class="col-lg-auto col-md-4">
-            <div class="footer-title">Get to know us</div>
-            <ul>
-              <li>About us</li>
-              <li>Meet our team</li>
-              <li>Why choose us?</li>
-              <li>Contacy us</li>
-            </ul>
-          </div>
-          <div class="col-lg-auto col-md-12 legal-info">
-            <div class="footer-title">Legal info</div>
-            <ul>
-              <li>Privacy policy</li>
-              <li>Terms and condition</li>
-              <li>Cancellation policy</li>
-              <li>Covid Protocol</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row footer-copyright-section">
-          <div class="col-auto">&copy; Copyright 2023 Swift Treks</div>
-          <div class="col-auto">
-            <i class="fa-solid fa-code"></i> Develop by IT Sansaar
-          </div>
-          <div class="col-auto">
-            <div class="footer-social">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-linkedin-in"></i>
-              <i class="fa-brands fa-youtube"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- footer ends -->
-  </body>
-
-  <!-- bootstrap script file -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"
-  ></script>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </html>
