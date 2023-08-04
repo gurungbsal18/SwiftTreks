@@ -964,4 +964,10 @@
 
 .trip-similar-packages .trip-card {
   margin: 0;
+}
+
+.pdf-download::before {
+  content: "\f1c1";
+  font-family: "FontAwesome";
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */

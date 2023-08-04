@@ -1100,3 +1100,9 @@ $dark: $gray-900;
     margin: 0;
   }
 }
+
+.pdf-download::before {
+  content: "\f1c1";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
