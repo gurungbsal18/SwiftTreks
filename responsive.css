@@ -217,8 +217,7 @@
 
 .trip-card {
   background: #fff;
-  width: -moz-max-content;
-  width: max-content;
+  width: 400px;
   text-align: left;
   border: 0.5px solid #dee2e6;
   margin-top: 60px;
@@ -234,8 +233,17 @@
 .trip-card-body {
   padding: 20px 10px;
 }
-.trip-card .location p {
-  font-size: 12px;
+.trip-card-body .trip-card-location::before {
+  content: "\f3c5" !important;
+  font-family: "FontAwesome" !important;
+  margin-right: 3px;
+  font-size: 16px;
+}
+.trip-card-body .trip-card-days::before {
+  content: "\f133";
+  font-family: "FontAwesome" !important;
+  margin-right: 3px;
+  font-size: 16px;
 }
 .trip-card-review span {
   color: #ffc107;
@@ -249,10 +257,14 @@
   border-radius: 10px 0 0 10px;
   color: #fff;
 }
+.trip-card .feature-text p {
+  color: #fff;
+}
 .trip-card .group-text {
   left: 0;
   background: #ffc107;
   border-radius: 0 10px 10px 0;
+  color: #000;
 }
 .trip-card .feature-text,
 .trip-card .group-text {
@@ -266,14 +278,13 @@
 .trip-card .group-text p {
   margin: 0;
 }
-.trip-card-location::before {
-  content: "\f3c5" !important;
-  font-family: FontAwesome !important;
-  font-size: 12px;
-}
-
-.trips-card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+.trip-card .trip-card-div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 400px;
+  height: 300px;
 }
 
 .trip-card-review {
@@ -331,12 +342,21 @@
 }
 
 .trips-card {
-  width: -moz-max-content;
-  width: max-content;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .trips-card-row {
   display: flex;
   justify-content: space-between;
+}
+.trips-card a {
+  text-decoration: none !important;
+}
+.trips-card p {
+  color: #000;
+}
+.trips-card h4 {
+  color: #1a7b89;
 }
 
 .blog-card {
@@ -347,16 +367,23 @@
   display: flex;
   justify-content: space-between;
 }
+.blog-card a {
+  text-decoration: none;
+}
+.blog-card p {
+  color: #000;
+}
 .blog-date {
-  display: flex;
-  justify-content: flex-start;
-  gap: 5px;
-  align-items: center;
   margin-bottom: 10px;
   color: #6c757d;
 }
 .blog-date p {
   margin: 0;
+}
+.blog-date p::before {
+  content: "\f133";
+  font-family: "FontAwesome";
+  margin-right: 5px;
 }
 
 .newsletter {
@@ -560,7 +587,7 @@
 }
 .trip-info-icon-detail .trip-info-tooltip {
   font-size: 14px;
-  color: #f7941d;
+  color: #6c757d;
 }
 
 .trip-info-icon-row {
@@ -956,7 +983,7 @@
     width: 100%;
   }
   .trip-card-div img {
-    width: 100%;
+    width: 100% !important;
   }
   .trip-card {
     margin-top: 30px;

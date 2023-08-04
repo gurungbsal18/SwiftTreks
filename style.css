@@ -217,8 +217,7 @@
 
 .trip-card {
   background: #fff;
-  width: -moz-max-content;
-  width: max-content;
+  width: 400px;
   text-align: left;
   border: 0.5px solid #dee2e6;
   margin-top: 60px;
@@ -279,9 +278,13 @@
 .trip-card .group-text p {
   margin: 0;
 }
-
-.trips-card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+.trip-card .trip-card-div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 400px;
+  height: 300px;
 }
 
 .trip-card-review {
@@ -339,8 +342,8 @@
 }
 
 .trips-card {
-  width: -moz-max-content;
-  width: max-content;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .trips-card-row {
   display: flex;
@@ -584,7 +587,7 @@
 }
 .trip-info-icon-detail .trip-info-tooltip {
   font-size: 14px;
-  color: #f7941d;
+  color: #6c757d;
 }
 
 .trip-info-icon-row {
