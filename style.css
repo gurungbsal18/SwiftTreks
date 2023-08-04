@@ -95,7 +95,7 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 80px !important;
 }
@@ -531,6 +531,7 @@
 .trip-header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .trip-info-icon {

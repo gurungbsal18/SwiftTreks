@@ -136,7 +136,7 @@ $dark: $gray-900;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 80px !important;
     li {
@@ -633,6 +633,7 @@ $dark: $gray-900;
 .trip-header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .trip-info-icon {
