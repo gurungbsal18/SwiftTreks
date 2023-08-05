@@ -154,7 +154,7 @@
 
   <!-- newsletter starts -->
 
-  <div class="newsletter container" data-aos="fade-right" data-aos-duration="1000"
+  <div class="newsletter container" data-aos="fade-up" data-aos-duration="1000"
     data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease-in-out" data-aos-offset="-500">
     <div class="row">
       <div class="col-6">
@@ -172,8 +172,8 @@
             Subscribe to see deals price drop the moment you sign up!
           </p>
           <div class="subscribe-email">
-            <div>
-              <input type="text" />
+            <div class="d-flex justify-content-center">
+              <input type="text" class="form-control" />
             </div>
             <div class="btn btn-success btn-sm subscribe-btn">Subscribe</div>
           </div>
@@ -265,18 +265,19 @@
     crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
 
-<script>
-  AOS.init();
-</script>
-<script>
-  var popoverTriggerList = [].slice.call(
-    document.querySelectorAll('[data-bs-toggle="popover"]')
-  );
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl);
-  });
-</script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
+    });
+  </script>
+
+</body>
 
 </html>
