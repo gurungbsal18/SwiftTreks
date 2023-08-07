@@ -97,7 +97,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 80px !important;
+  gap: 80px;
 }
 .trip-navbar ul li {
   color: #fff;

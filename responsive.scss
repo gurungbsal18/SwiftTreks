@@ -28,7 +28,8 @@
   .trip-navbar ul {
     // flex-wrap: wrap;
     overflow: scroll;
-    gap: 10px;
+    gap: 40px !important;
+    text-wrap: nowrap;
     li {
       word-wrap: nowrap;
     }
