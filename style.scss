@@ -1158,3 +1158,17 @@ $dark: $gray-900;
 .contact-map iframe {
   width: 100%;
 }
+
+.region-content {
+  height: 100px;
+  overflow: hidden;
+}
+
+.region-content-expand {
+  height: max-content;
+}
+
+.region-btn {
+  display: flex;
+  justify-content: center;
+}

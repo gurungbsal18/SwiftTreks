@@ -1013,4 +1013,19 @@
 
 .contact-map iframe {
   width: 100%;
+}
+
+.region-content {
+  height: 100px;
+  overflow: hidden;
+}
+
+.region-content-expand {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.region-btn {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

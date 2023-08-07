@@ -1015,6 +1015,16 @@
   width: 100%;
 }
 
+.region-content {
+  height: 100px;
+  overflow: hidden;
+}
+
+.region-btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 567px) {
   .hero-image-front img {
     width: 300px;
