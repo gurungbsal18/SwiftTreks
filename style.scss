@@ -66,6 +66,9 @@ $dark: $gray-900;
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #1a7b89 !important;
   --bs-btn-disabled-border-color: #1a7b89 !important;
+  a {
+    color: $white;
+  }
 }
 
 .btn-warning {
@@ -91,6 +94,10 @@ $dark: $gray-900;
     // font-family: "Assistant", sans-serif;
     line-height: 1.7;
   }
+}
+
+button a {
+  text-decoration: none;
 }
 
 .title {
@@ -1213,5 +1220,11 @@ $dark: $gray-900;
       object-fit: cover;
       display: block;
     }
+  }
+}
+
+.inquiry-form {
+  label {
+    margin-top: 30px;
   }
 }
