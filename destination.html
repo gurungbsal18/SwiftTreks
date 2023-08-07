@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
     <!-- bootstrap cdn -->
     <link
@@ -33,7 +34,9 @@
     <div class="container">
       <div class="top-bar">
         <div class="top-bar-logo py-3">
-          <a href="index.html"><img src="./images/Logo.png" alt="" /></a>
+          <a href="index.html">
+            <img src="./images/Logo.png" alt="swift trek" />
+          </a>
         </div>
         <div class="top-bar-contact">
           <div class="row">
@@ -109,120 +112,68 @@
       <div class="container-fluid">
         <div class="container">
           <div class="trip-header fw-bold">
-            <h4 class="text-light">About Us</h4>
+            <h4 class="text-light">Destinations</h4>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container mt-4">
-      <!-- <i class="fa-regular fa-share-from-square me-2"></i>Share -->
-
-      <a
-        tabindex="0"
-        class="btn btn-md btn-warning"
-        role="button"
-        data-bs-toggle="popover"
-        data-bs-trigger="focus"
-        data-bs-title="Share"
-        data-bs-content='
-        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fs-4 me-2 text-dark"></i></a>
-        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fs-4 me-2 text-dark"></i></a>
-        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fs-4 me-2 text-dark"></i></a>'
-        data-bs-html="true"
-        >Share <i class="fa-regular fa-share-from-square"></i
-      ></a>
-      <h4 class="fw-bold mt-4">About us</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra
-        justo neque, eget accumsan ipsum rutrum at. Mauris ultricies et mauris
-        convallis consectetur. Cras pulvinar dolor eget felis vulputate, sit
-        amet vestibulum erat ultricies. Ut at velit quam. Mauris porttitor
-        suscipit ipsum sit amet dapibus. Aliquam lobortis vulputate nunc. Fusce
-        pretium ultricies urna sed consectetur. Praesent ut egestas ex. Morbi eu
-        lacinia enim. Nullam id erat elementum, porta eros fringilla, rutrum
-        enim. Pellentesque iaculis felis ac malesuada vestibulum. Etiam
-        facilisis, metus sed pretium tristique, nibh felis pretium arcu, at
-        vehicula enim tortor sit amet urna.
+    <div class="container destination mt-5">
+      <p class="text-center">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+        sapiente ipsam commodi nam suscipit iure libero rem veniam minima quia
+        quibusdam eum repellendus expedita voluptatum, provident eos, aliquam,
+        minus quaerat aut est! Quos quia quis modi quaerat ex tempore error
+        commodi neque dolorem at temporibus iusto soluta reprehenderit
+        repudiandae, placeat voluptates earum, assumenda eaque consequuntur iste
+        saepe! Nisi, officia perspiciatis!
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra
-        justo neque, eget accumsan ipsum rutrum at. Mauris ultricies et mauris
-        convallis consectetur. Cras pulvinar dolor eget felis vulputate, sit
-        amet vestibulum erat ultricies. Ut at velit quam. Mauris porttitor
-        suscipit ipsum sit amet dapibus. Aliquam lobortis vulputate nunc. Fusce
-        pretium ultricies urna sed consectetur. Praesent ut egestas ex. Morbi eu
-        lacinia enim. Nullam id erat elementum, porta eros fringilla, rutrum
-        enim. Pellentesque iaculis felis ac malesuada vestibulum. Etiam
-        facilisis, metus sed pretium tristique, nibh felis pretium arcu, at
-        vehicula enim tortor sit amet urna.
-      </p>
-      <h4 class="fw-bold mt-4">Our Mission</h4>
-      <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-      </ul>
-
-      <h4 class="fw-bold mt-4">Are You Ready To Join Us?</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra
-        justo neque, eget accumsan ipsum rutrum at. Mauris ultricies et mauris
-        convallis consectetur. Cras pulvinar dolor eget felis vulputate, sit
-        amet vestibulum erat ultricies. Ut at velit quam. Mauris porttitor
-        suscipit ipsum sit amet dapibus. Aliquam lobortis vulputate nunc. Fusce
-        pretium ultricies urna sed consectetur. Praesent ut egestas ex. Morbi eu
-        lacinia enim. Nullam id erat elementum, porta eros fringilla, rutrum
-        enim. Pellentesque iaculis felis ac malesuada vestibulum. Etiam
-        facilisis, metus sed pretium tristique, nibh felis pretium arcu, at
-        vehicula enim tortor sit amet urna.
-      </p>
-    </div>
-
-    <!-- newsletter starts -->
-
-    <div
-      class="newsletter container"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-anchor-placement="bottom-bottom"
-      data-aos-easing="ease-in-out"
-      data-aos-offset="-500">
-      <div class="row">
-        <div class="col-6">
-          <div class="newsletter-image">
-            <!-- <img src="./images/heroImage.jpg" /> -->
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="content">
-            <h4>
-              Get special offer, and <br />
-              more from <span>Swift Treks</span>
-            </h4>
-            <p class="text-muted">
-              Subscribe to see deals price drop the moment you sign up!
-            </p>
-            <div class="subscribe-email">
-              <div class="d-flex justify-content-center">
-                <input type="text" class="form-control" />
+      <div class="row d-flex justify-content-center destination-container">
+        <div class="col-md-4 col-sm-12">
+          <a href="#">
+            <div class="destination-image-container">
+              <div class="overlary-text">
+                <h4 class="title">Nepal</h4>
               </div>
-              <div class="btn btn-success btn-sm subscribe-btn">Subscribe</div>
+              <div class="destination-image">
+                <img src="images/gokyo.jpg" alt="" />
+              </div>
             </div>
-          </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="#">
+            <div class="destination-image-container">
+              <div class="overlary-text">
+                <h4 class="title">Tibet</h4>
+              </div>
+              <div class="destination-image">
+                <img src="images/tibet.webp" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <a href="#">
+            <div class="destination-image-container">
+              <div class="overlary-text">
+                <h4 class="title">Bhutan</h4>
+              </div>
+              <div class="destination-image">
+                <img src="images/bhutan.webp" alt="" />
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
-
-    <!-- newsletter ends -->
 
     <!-- footer starts -->
 
-    <div class="footer">
+    <div class="footer mt-5">
       <div class="container">
         <div class="row footer-container">
-          <div class="col-auto">
+          <div class="col-lg-auto col-md-4">
             <div class="footer-title footer-contact">Contact us</div>
             <ul>
               <li>
@@ -245,7 +196,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-auto">
+          <div class="col-lg-auto col-md-4">
             <div class="footer-title">Useful links</div>
             <ul>
               <li>Trekking in Nepal</li>
@@ -254,7 +205,7 @@
               <li>Activities</li>
             </ul>
           </div>
-          <div class="col-auto">
+          <div class="col-lg-auto col-md-4">
             <div class="footer-title">Get to know us</div>
             <ul>
               <li>About us</li>
@@ -263,7 +214,7 @@
               <li>Contacy us</li>
             </ul>
           </div>
-          <div class="col-auto">
+          <div class="col-lg-auto col-md-12 legal-info">
             <div class="footer-title">Legal info</div>
             <ul>
               <li>Privacy policy</li>
@@ -292,6 +243,7 @@
     </div>
 
     <!-- footer ends -->
+
     <!-- bootstrap script file -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -299,17 +251,9 @@
       crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <script>
       AOS.init();
     </script>
-    <script>
-      var popoverTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="popover"]')
-      );
-      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl);
-      });
-    </script>
+    <script src="script/script.js"></script>
   </body>
 </html>

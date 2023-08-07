@@ -1028,4 +1028,42 @@
 .region-btn {
   display: flex;
   justify-content: center;
+}
+
+.destination-image-container {
+  position: relative;
+}
+.destination-image-container:hover .overlary-text {
+  opacity: 0.8;
+}
+.destination .overlary-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000;
+}
+.destination .title {
+  color: white;
+  font-size: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.destination .title:hover {
+  color: #ffc107;
+}
+.destination-image img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
