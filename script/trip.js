@@ -30,3 +30,29 @@ document.addEventListener("DOMContentLoaded", function () {
     enableTime: false, // Set to true if you want to enable time selection as well
   });
 });
+
+// trip navbar sticky 
+let tripNavbar = document.querySelector('.trip-navbar');
+const initialoffset = tripNavbar.offsetTop;
+
+window.addEventListener('scroll', function (){
+  const scrollPos = window.scrollY;
+
+  if(scrollPos >= initialoffset) {
+    tripNavbar.style.position = 'fixed';
+    tripNavbar.classList.add('sticky-trip-nav');
+  } else {
+    tripNavbar.style.position = 'relative';
+    tripNavbar.classList.remove('sticky-trip-nav');
+  }
+});
+
+// booking price for mobile device only
+window.onscroll = function () {
+  let mobilePrice = document.querySelector(".mobile-trip-price");
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    mobilePrice.style.display = "block";
+  } else {
+    mobilePrice.style.display = "none";
+  }
+};

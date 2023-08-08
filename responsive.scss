@@ -183,7 +183,18 @@
   }
 
   .mobile-trip-price {
-    display: block;
+    display: none;
+    position: fixed;
+    background: #202222;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .mobile-trip-price .trip-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
 }
 

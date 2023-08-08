@@ -122,6 +122,12 @@ button a {
   justify-content: center !important;
 }
 
+.sticky-trip-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar-expand-lg .navbar-collapse {
   justify-content: center;
 }
@@ -1074,10 +1080,6 @@ button a {
 
 .inquiry-form label {
   margin-top: 30px;
-}
-
-.mobile-trip-price {
-  display: none;
 }
 
 .trip-image {
