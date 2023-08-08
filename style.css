@@ -1080,4 +1080,10 @@ button a {
 
 .mobile-trip-price {
   display: none;
+}
+
+.trip-image {
+  border: 1px solid #000;
+  height: 300px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
