@@ -22,7 +22,7 @@
     "liveServer.settings.port": 5501,
     "workbench.preferredLightColorTheme": "Default Light Modern",
     "material-icon-theme.activeIconPack": "react",
-    "workbench.colorTheme": "Material Night Eighties",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.colorTheme": "Community Material Theme Darker",
+    "workbench.iconTheme": "material-icon-theme",
     "window.autoDetectColorScheme": false
 }
