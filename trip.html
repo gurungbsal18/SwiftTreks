@@ -133,28 +133,31 @@
       <div class="container">
         <ul>
           <li>
-            <a href="#">Overview</a>
+            <a href="#overview">Overview</a>
           </li>
           <li>
-            <a href="#">Itinerary</a>
+            <a href="#itinerary">Itinerary</a>
           </li>
           <li>
-            <a href="#">Trip Map</a>
+            <a href="#trip-map">Trip Map</a>
           </li>
           <li>
-            <a href="#">Cost Includes & Excludes</a>
+            <a href="#cost-include-exclude">Cost Includes & Excludes</a>
           </li>
           <li>
-            <a href="#">Dates & Price</a>
+            <a href="#fix-date-table">Dates & Price</a>
           </li>
           <li>
-            <a href="#">Useful Info</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li>
-            <a href="#">FAQs</a>
+            <a href="#useful-info">Useful Info</a>
           </li>
           <li>
-            <a href="#">Reviews</a>
+            <a href="#faq">FAQs</a>
+          </li>
+          <li>
+            <a href="#trip-review">Reviews</a>
           </li>
         </ul>
       </div>
@@ -165,7 +168,7 @@
       <div class="row">
         <div class="col-lg-8 col-sm-12 trip-info-container">
           <!-- trip info starts -->
-          <div class="trip-info">
+          <div class="trip-info" id="overview">
             <h4 class="title">Overview</h4>
             <div class="row trip-info-icon-row mt-4">
               <div class="col-auto trip-info-icon">
@@ -258,7 +261,7 @@
           </div>
 
           <!-- detail trip start -->
-          <div class="mt-5 detail-itinerary">
+          <div class="mt-5 detail-itinerary" id="itinerary">
             <span class="d-flex justify-content-between">
               <h4 class="title">Itinerary</h4>
               <button class="btn btn-primary">Expand +</button>
@@ -375,7 +378,7 @@
           </div>
 
           <!-- trip map starts -->
-          <div class="mt-5 trip-map">
+          <div class="mt-5 trip-map" id="trip-map">
             <h4 class="title">Trip Map</h4>
             <div class="trip-map-image mt-3">
               <img src="images/map.jpg" alt="" />
@@ -383,7 +386,7 @@
           </div>
 
           <!-- cost include and exclude starts -->
-          <div class="mt-5 cost-include">
+          <div class="mt-5 cost-include" id="cost-include-exclude">
             <h4 class="title">Trip Inclusion</h4>
             <div class="mt-4">
               <button class="btn btn-success cost-include-btn me-3">
@@ -492,7 +495,7 @@
           </div>
 
           <!-- video and photo gallery starts -->
-          <div class="trip-gallery mt-5">
+          <div class="trip-gallery mt-5" id="gallery">
             <h4 class="title">Video & Photo Gallery</h4>
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
@@ -541,7 +544,7 @@
           </div>
 
           <!-- text editor here -->
-          <div class="mt-5">
+          <div class="mt-5" id="useful-info">
             <h1>
               Place wordpress text editor here so that user can insert multiple
               paragraph and heading as per their need
@@ -549,7 +552,7 @@
           </div>
 
           <!-- faq starts -->
-          <div class="trip-faq mt-5">
+          <div class="trip-faq mt-5" id="faq">
             <h4 class="title">FAQ (Frequently Asked Questions)</h4>
             <div class="accordion mt-4" id="faqAccordion">
               <div class="accordion-item">
@@ -607,7 +610,7 @@
           </div>
 
           <!-- review starts -->
-          <div class="trip-review my-5">
+          <div class="trip-review my-5" id="trip-review">
             <h4 class="title">Reviews</h4>
             <div class="reviews">
               <!-- 1st review starts -->
@@ -1000,17 +1003,13 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="mobile-trip-price">
-        <div class="trip-title">
-          Everest Base Camp Three Pass Trek - 14 Days
-        </div>
-        <div class="d-flex justify-content-between">
-          <div class="trip-price">US$1029</div>
-          <div class="action-btn">
-            <div class="btn btn-sm btn-warning">Customize Trip</div>
-            <div class="btn btn-sm btn-primary">Book Now</div>
-          </div>
+    <div class=".container mobile-trip-price">
+      <div class="trip-title">Everest Base Camp Three Pass Trek - 14 Days</div>
+      <div class="d-flex justify-content-between">
+        <div class="trip-price">US$1029</div>
+        <div class="action-btn">
+          <div class="btn btn-sm btn-warning">Customize Trip</div>
+          <div class="btn btn-sm btn-primary">Book Now</div>
         </div>
       </div>
     </div>
