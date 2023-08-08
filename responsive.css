@@ -105,8 +105,6 @@ button a {
   justify-content: flex-start;
   align-items: center;
   gap: 55px;
-  white-space: nowrap;
-  overflow: scroll;
 }
 .trip-navbar ul li {
   color: #fff;
@@ -1082,6 +1080,12 @@ button a {
   display: none;
 }
 
+.trip-image {
+  border: 1px solid #000;
+  height: 300px;
+  width: 100%;
+}
+
 @media (max-width: 567px) {
   .hero-image-front img {
     width: 300px;
@@ -1111,6 +1115,7 @@ button a {
     overflow: scroll;
     gap: 40px !important;
     white-space: nowrap;
+    overflow: scroll;
   }
   .trip-navbar ul li {
     word-wrap: nowrap;

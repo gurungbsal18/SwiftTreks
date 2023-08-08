@@ -105,8 +105,6 @@ button a {
   justify-content: flex-start;
   align-items: center;
   gap: 55px;
-  white-space: nowrap;
-  overflow: scroll;
 }
 .trip-navbar ul li {
   color: #fff;
