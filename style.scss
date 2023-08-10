@@ -51,6 +51,10 @@ $dark: $gray-900;
   gap: 20px;
 }
 
+.btn a {
+  color: inherit;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a7b89 !important;
@@ -677,6 +681,9 @@ z-index: 101;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  &-btn a{
+    color: inherit;
+  }
 }
 
 .trip-info-icon {

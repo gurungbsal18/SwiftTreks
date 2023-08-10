@@ -1093,6 +1093,10 @@ button a {
   margin-top: 0;
 }
 
+.about-us-content p {
+  text-align: justify;
+}
+
 @media (max-width: 567px) {
   .hero-image-front img {
     width: 300px;
