@@ -17,6 +17,10 @@
   gap: 20px;
 }
 
+.btn a {
+  color: inherit;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a7b89 !important;
@@ -231,7 +235,7 @@ button a {
 
 .trip-card {
   background: #fff;
-  width: 400px;
+  width: 100%;
   text-align: left;
   border: 0.5px solid #dee2e6;
   margin-top: 60px;
@@ -356,7 +360,7 @@ button a {
 }
 
 .trips-card {
-  width: 400px;
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .trips-card-row {
@@ -578,6 +582,9 @@ button a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.trip-header-btn a {
+  color: inherit;
 }
 
 .trip-info-icon {
@@ -978,6 +985,7 @@ button a {
 
 .trip-similar-packages .trip-card {
   margin: 0;
+  width: 100%;
 }
 
 .pdf-download::before {
@@ -1091,6 +1099,7 @@ button a {
 
 .explore-region .trip-card {
   margin-top: 0;
+  width: 100%;
 }
 
 .about-us-content p {
