@@ -190,6 +190,7 @@
     color: #fff;
     width: 100%;
     padding: 5px 10px 20px 10px;
+    z-index: 101;
   }
   .mobile-trip-price .trip-title {
     font-size: 18px;
@@ -265,6 +266,34 @@
     .footer-social {
       justify-content: center;
     }
+  }
+  .trip-navbar ul {
+    // flex-wrap: wrap;
+    overflow: scroll;
+    gap: 40px !important;
+    white-space: nowrap;
+    overflow: scroll;
+    li {
+      word-wrap: nowrap;
+    }
+  }
+  .trip-header-btn {
+    display: none;
+  }
+  .mobile-trip-price {
+    display: none;
+    position: fixed;
+    background: #202222;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 5px 10px 20px 10px;
+    z-index: 101;
+  }
+  .mobile-trip-price .trip-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
 }
 
