@@ -1104,4 +1104,25 @@ button a {
 
 .about-us-content p {
   text-align: justify;
+}
+
+.blog-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 10px;
+}
+.blog-card-image img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog-card-content {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.blog-card-desc {
+  font-size: 14px;
+}
+.blog-card-btn {
+  padding: 0 20px 20px 20px;
 }/*# sourceMappingURL=style.css.map */

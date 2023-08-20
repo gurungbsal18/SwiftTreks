@@ -197,6 +197,13 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
+  .blog-card {
+    &-image {
+      img {
+        height: 300px;
+      }
+    }
+  }
 }
 
 @media (min-width: 567px) and (max-width: 820px) {
