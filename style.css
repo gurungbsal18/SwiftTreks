@@ -1125,6 +1125,9 @@ button a {
   text-decoration: none;
   color: #6c757d;
 }
+.blog-post ul li .blog-date {
+  font-size: 12px;
+}
 
 .single-blog-hero {
   background-image: url(images/single-blog-header.jpg);
