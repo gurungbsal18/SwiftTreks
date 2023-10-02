@@ -1161,4 +1161,65 @@ button a {
   background: #198754;
   padding: 3px 10px;
   color: #fff;
+}
+
+.blog-content-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.single-blog-sidebar {
+  position: sticky;
+  top: 20px;
+  right: 0;
+  height: 490px;
+  overflow: hidden;
+}
+
+.recent-blog-sidebar {
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  top: 30px;
+}
+.recent-blog-sidebar li {
+  border-bottom: 1px solid #e6e7ee;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+.recent-blog-sidebar .recent-blog-thumbnail {
+  width: 95px;
+  height: 80px;
+  float: left;
+  margin-right: 25px;
+  display: block;
+}
+.recent-blog-sidebar .recent-blog-thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.recent-blog-sidebar-header a {
+  text-decoration: none;
+}
+.recent-blog-sidebar-header h4 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.recent-blog-sidebar::after {
+  display: block;
+  clear: both;
+  content: "";
+  padding-top: 10px;
+}
+
+.text-justify {
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */

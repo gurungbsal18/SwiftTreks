@@ -1125,6 +1125,9 @@ button a {
   text-decoration: none;
   color: #6c757d;
 }
+.blog-post ul li .blog-date {
+  font-size: 12px;
+}
 
 .single-blog-hero {
   background-image: url(images/single-blog-header.jpg);
@@ -1158,6 +1161,11 @@ button a {
   background: #198754;
   padding: 3px 10px;
   color: #fff;
+}
+
+.blog-content-image img {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 567px) {
