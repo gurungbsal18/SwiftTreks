@@ -1222,4 +1222,40 @@ button a {
 
 .text-justify {
   text-align: justify;
+}
+
+.author {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.author p {
+  margin: 0;
+}
+.author .author-image {
+  height: 60px;
+  width: 60px;
+}
+.author .author-image img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.single-blog-share .fa-brands:hover {
+  color: #1a7b89 !important;
+}
+
+.single-blog-tag ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.single-blog-tag ul a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.single-blog-tag ul a:hover {
+  color: #1a7b89 !important;
 }/*# sourceMappingURL=style.css.map */

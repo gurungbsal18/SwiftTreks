@@ -1412,3 +1412,43 @@ button a {
 .text-justify {
   text-align: justify;
 }
+
+.author {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+  .author-image {
+    height: 60px;
+    width: 60px;
+    img {
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+
+.single-blog-share {
+  .fa-brands:hover {
+    color: #1a7b89 !important;
+  }
+}
+
+.single-blog-tag {
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        color: #1a7b89 !important;
+      }
+    }
+  }
+}
